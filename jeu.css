@@ -1,0 +1,297 @@
+
+
+/************** Presentation *************/
+
+
+#presentation{
+	height:270px;
+	margin-bottom: 20px;
+}
+#acheter_droite{
+	float:right;
+	width:30%;
+	height: 100%;
+}
+.img_description{
+	/*height: 300px;*/
+	width: 80%;
+	margin: 0 auto 2%;
+	display:block;
+}/*
+.link_jenveuxun{
+	display:block;
+	text-decoration:none;
+	color: #FFFFFF;
+	text-align:center;
+	line-height:50px;
+	width: 150px;
+	height:50px;
+	border-radius:50px;
+	background-color: blue;
+	background: rgb(63,76,107);
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(63,76,107,1) 18%, rgba(91,141,155,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(18%,rgba(63,76,107,1)), color-stop(100%,rgba(91,141,155,1)));
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(63,76,107,1) 18%,rgba(91,141,155,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover,  rgba(63,76,107,1) 18%,rgba(91,141,155,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(63,76,107,1) 18%,rgba(91,141,155,1) 100%);
+	background: radial-gradient(center, ellipse cover,  rgba(63,76,107,1) 18%,rgba(91,141,155,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#5b8d9b',GradientType=1 );
+}*/
+.link_jenveuxun{
+	margin: 0 auto;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-size: 1.4em;
+	/*font-family: clarendon;*/
+	/*font-weight:bold;*/
+	
+	width: 150px;
+	height:12%;
+	line-height:120%;
+
+	background: #222 repeat-x; 
+	padding: 5px 10px 6px; 
+	color: #fff; 
+	text-decoration: none;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer;
+
+}
+
+.link_jenveuxun:active							{ top: 1px; }
+.link_jenveuxun, .link_jenveuxun:visited		{ background-color: #E09C00; /*#2daebf;*/ }
+.link_jenveuxun:hover							{ background-color: rgb(67, 191, 40); /*#E09A00;*//*#007d9a;*/ }
+	
+/************** Les cartes ****************/
+.carte{
+	width: 22%;
+	height:auto;
+	border: 1px double grey;
+	border-radius:5px;
+}
+
+/************** Règles ********************/
+#regles{
+	width:100%;
+}
+	
+/************** But du jeu ****************/
+#but_du_jeu{
+	/*height: 500px;*/
+	margin-bottom: 3%;
+}
+
+.verre{
+	-moz-transform:rotate(-5deg); /*firefox*/
+	-webkit-transform:rotate(-5deg); /*Chrome, Safari*/
+	-o-transform:rotate(-5deg); /*Opera*/
+}	
+.bac_a_glacons{
+	-moz-transform:rotate(5deg); /*firefox*/
+	-webkit-transform:rotate(5deg); /*Chrome, Safari*/
+	-o-transform:rotate(5deg); /*Opera*/
+}
+	
+.cartes_extremes{
+	width: 100%;
+	height: 82%;
+	margin-top: 3%;
+}
+
+.carte_extreme{
+
+	width: 30%;
+	height: 100%;
+	/*margin-top: 6%;*/
+}
+.depart{
+	float:left;
+}
+.fleche{
+	float:left;
+	width:20%;
+	margin: 10% 3% 0 3%;
+	-moz-transform:rotate(45deg); /*firefox*/
+	-webkit-transform:rotate(45deg); /*Chrome, Safari*/
+	-o-transform:rotate(45deg); /*Opera*/
+}
+.arrivee{
+	float:left;
+}
+
+.carte_extreme p{
+	height: 10%;
+}
+.carte_extreme img{
+	width: 80%;
+	height: auto;
+	/*max-width: 80%;*/
+	/*max-height: 80%;*/
+}
+/*.carte_extreme img.carte{
+	max-width: 100%;
+}*/
+.carte_extreme p{
+	margin-bottom: 8%;
+	width:95%;
+}/*
+.carte_extreme p.verre{
+	margin-bottom: 8%;
+	width:85%;
+}*/
+.carte_extreme img.verre{
+	margin-left: 10%;
+}
+
+.bac_a_glacons{
+	margin-left: 10%;
+}
+
+	
+/************** Les attaques ***************/
+
+.attaque{
+	width: 100%;
+	margin-bottom: 3%;
+}
+
+.attaque_olivier{
+	width: 25%;
+}
+
+.attaque_carte{
+	width: 20%;
+	height: auto;
+	border: 1px double grey;
+	border-radius: 5px;
+}
+
+.impair{
+	-moz-transform:rotate(-5deg); /*firefox*/
+	-webkit-transform:rotate(-5deg); /*Chrome, Safari*/
+	-o-transform:rotate(-5deg); /*Opera*/
+}
+
+.pair{
+	-moz-transform:rotate(5deg); /*firefox*/
+	-webkit-transform:rotate(5deg); /*Chrome, Safari*/
+	-o-transform:rotate(5deg); /*Opera*/
+}
+
+/*************** Les cartes défense ****************/
+#cartes_defenses{
+	/*height: 600px;*/
+	/*position:relative;*/
+}
+/*
+.carte_defense{
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}*/
+.carte_defense{
+	/*margin-left: 10%;*/
+	float: right;
+}
+
+
+/*************** Les cartes mouvement ****************/
+#cartes_mouvements{
+	/*height: 400px;*/
+	/*position:relative;*/
+	margin-bottom: 3%;
+}
+
+.carte_mouvement_1{
+	float:left;
+	margin-left: 10%;
+	margin-top: 5%;
+	-moz-transform:rotate(-30deg); /*firefox*/
+	-webkit-transform:rotate(-30deg); /*Chrome, Safari*/
+	-o-transform:rotate(-30deg); /*Opera*/	
+	z-index:1;
+}
+.carte_mouvement_2{
+	float:left;
+	margin-left: -18%;
+	margin-top: 5%;
+	-moz-transform:rotate(-20deg); /*firefox*/
+	-webkit-transform:rotate(-20deg); /*Chrome, Safari*/
+	-o-transform:rotate(-20deg); /*Opera*/	
+	z-index:2;
+}
+.carte_mouvement_3{
+	float:left;
+	margin-left: -18%;
+	margin-top: 5%;
+	-moz-transform:rotate(-10deg); /*firefox*/
+	-webkit-transform:rotate(-10deg); /*Chrome, Safari*/
+	-o-transform:rotate(-10deg); /*Opera*/	
+	z-index:3;
+}
+.carte_mouvement_4{
+	float:left;
+	margin-left: -18%;
+	margin-top: 5%;
+	-moz-transform:rotate(0deg); /*firefox*/
+	-webkit-transform:rotate(0deg); /*Chrome, Safari*/
+	-o-transform:rotate(0deg); /*Opera*/	
+	z-index:4;
+}
+.carte_mouvement_5{
+	float:left;
+	margin-left: -18%;
+	margin-top: 5%;
+	-moz-transform:rotate(10deg); /*firefox*/
+	-webkit-transform:rotate(10deg); /*Chrome, Safari*/
+	-o-transform:rotate(10deg); /*Opera*/	
+	z-index:5;
+}
+.carte_mouvement_6{
+	float:left;
+	margin-left: 10%;
+	margin-top: 5%;
+	-moz-transform:rotate(-10deg); /*firefox*/
+	-webkit-transform:rotate(-10deg); /*Chrome, Safari*/
+	-o-transform:rotate(-10deg); /*Opera*/	
+	z-index:2;
+}
+.carte_mouvement_7{
+	float:left;
+	margin-left: -18%;
+	margin-top: 5%;
+	-moz-transform:rotate(10deg); /*firefox*/
+	-webkit-transform:rotate(10deg); /*Chrome, Safari*/
+	-o-transform:rotate(10deg); /*Opera*/	
+	z-index:1;
+}
+
+/*************** Contenu de la boîte *******************/
+.contenu_boite{
+	font-size: 1.2em;
+}
+.contenu_boite li{
+	margin-bottom: 1%;
+}
+.decomposition_cartes{
+	margin-left: 3%;
+}
+
+.contenu_gobelet{
+	vertical-align: middle;
+	margin-left: 2%;
+	width: 5%;
+}
+
+.contenu_pipette{
+	vertical-align: middle;
+	margin-left: 2%;
+	width: 7%;
+}

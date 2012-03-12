@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*************** fin du reset ******************/
+
+
+/*************** Astuces CSS *******************/
+.spacer{
+	clear:both;
+	margin-bottom: 2%;
+}
+
+
+/*************** Elements génériques ***********/
+html{
+	width: 100%;
+	height: 100%;
+}
+
+
+body{
+	width: 100%;
+	height: 100%;
+	background: url(img/effet_givre.jpg) scroll;/*url("img/fond.png") repeat-y scroll*/ /*#45B6C4;*/
+}
+
+h2{
+	font-family: Impact, fantasy;
+}
+p{
+	font-size: 1em;
+	font-family: Verdana, sans-serif;
+	margin-bottom: 20px;
+}
+
+#conteneur{
+	width: 61.8%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+img{
+	max-width: 100%;
+}
+/************ header ***************/
+
+#header{
+	height: 38.2%;
+}
+
+#header img{
+	width: 100%;
+	height:auto;
+}
+
+nav{
+	height: 10%;
+	width: 100%;
+	padding-top: 5%;
+}
+
+nav a{
+	float:left;
+	width: 20%;
+	height: 80%;
+	padding: auto;
+	margin-left:10px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 1.68em;
+	
+	text-decoration: none;
+	/*color: #FFFFFF;
+	
+	background-color: #335F68;*/
+	border-radius: 5px;
+}
+
+
+/************ contenu **************/
+
+.bleu {
+	color: #FFFFFF;
+	border: solid 1px #1A8F98;
+	background: #1A8F98;
+	background: -webkit-gradient(linear, left top, left bottom, from(#51BDC7), to(#1A8F98));
+	background: -moz-linear-gradient(top,  #51BDC7,  #1A8F98);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#51BDC7', endColorstr='#1A8F98');
+}
+.bleu:hover {
+	background: #1A8F98;
+	background: -webkit-gradient(linear, left top, left bottom, from(#51BDC7), to(#1A8F98));
+	background: -moz-linear-gradient(top,  #51BDC7,  #1A8F98);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#51BDC7', endColorstr='#1A8F98');
+}
+.bleu:active {
+	color: #1A8F98;
+	background: -webkit-gradient(linear, left top, left bottom, from(#51BDC7), to(#1A8F98));
+	background: -moz-linear-gradient(top,  #51BDC7,  #1A8F98);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#51BDC7', endColorstr='#1A8F98');
+}
+/*
+.bleu {
+	color: #FFFFFF;
+	border: solid 1px #da7c0c;
+	background: #335F68;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.bleu:hover {
+	background: #335F68;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.bleu:active {
+	color: #335F68;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+*/
+
+#contenu{
+	background-color: #FFFFFF;
+	padding: 5% 5% 5% 5%;
+	border-radius: 5px;
+}
+
+
+/************** Footer ***************/
+footer{
+	height: 200px;
+	background-image: url(img/bandeau_header.png);
+}
