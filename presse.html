@@ -24,10 +24,10 @@
 		</div>
 
 		<nav>
-			<a class="bleu" href="index.html">Le jeu</a>
-			<a class="bleu" href="/ice3/acheter.html">Où l'acheter</a>
-			<a class="bleu" href="/ice3/presse.html">La presse</a>
-			<a class="bleu" href="/ice3/contact.html">Contact</a>
+			<a class="bleu" href="index.php">Le jeu</a>
+			<a class="bleu" href="acheter.html">Où l'acheter</a>
+			<a class="bleu" href="presse.html">La presse</a>
+			<a class="bleu" href="contact.html">Contact</a>
 		</nav>
 		
 		<section id="contenu">
