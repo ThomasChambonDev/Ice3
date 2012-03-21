@@ -67,7 +67,7 @@ html{
 body{
 	width: 100%;
 	height: 100%;
-	background: url(img/effet_givre.jpg) scroll;/*url("img/fond.png") repeat-y scroll*/ /*#45B6C4;*/
+	background: url(img/design_fondsite.jpg);/*background: url(img/effet_givre.jpg) scroll;*//*url("img/fond.png") repeat-y scroll*/ /*#45B6C4;*/
 }
 
 h2{
@@ -80,48 +80,130 @@ p{
 }
 
 #conteneur{
-	width: 61.8%;
+	width: 80%;/*61.8%;*/
 	height: 100%;
 	margin: 0 auto;
 }
 
 img{
-	max-width: 100%;
+	/*max-width: 100%;*/
 }
 /************ header ***************/
-
+/*
 #header{
 	height: 38.2%;
-}
-
-#header img{
+}*/
+#header{
 	width: 100%;
-	height:auto;
 }
 
+.logo_haut{
+	display: block;
+	margin: 0 auto -4%;
+}
+
+/************** Navigation *****************/
 nav{
-	height: 10%;
-	width: 100%;
-	padding-top: 5%;
+	float: left;
+	width: 15%;
 }
-
 nav a{
 	float:left;
-	width: 20%;
-	height: 80%;
-	padding: auto;
-	margin-left:10px;
-	line-height: 30px;
-	text-align: center;
-	font-size: 1.68em;
-	
 	text-decoration: none;
-	/*color: #FFFFFF;
-	
-	background-color: #335F68;*/
-	border-radius: 5px;
+	margin-right: 19%;
+	width: 100%;
+}
+.image_bouton{
+	float:left;
+	width: 100%;
+}
+.nav_jeu{
+	margin-top: -12.5%;
+	margin-left: -9%;
+	width: 90%;
+}
+.nav_presse{
+	margin-top: 0%;
+	margin-left: -6.5%;
+}
+.nav_contact{
+	margin-top: 6%;
+	margin-left: -4.5%;
+}
+.texte_bouton{
+	float: left;
+}
+.texte_bouton_1a{
+	width: 20%;
+	margin-top: 11.5%;
+	margin-left: -68%;
+}
+.texte_bouton_1b{
+	width: 35%;
+	margin-top: 15%;
+	margin-left: -45%;
+}
+.texte_bouton_2a{
+	width: 40%;
+	margin-top: 0%;
+	margin-left: -98%;
+}
+.texte_bouton_2b{
+	width: 35%;
+	margin-top: 23%;
+	margin-left: -70%;
+}
+.texte_bouton_2c{
+	width: 60%;
+	margin-top: 38%;
+	margin-left: -93%;
+}
+.texte_bouton_3{
+	width: 60%;
+	margin-top: 12%;
+	margin-left: -68%;
+}
+/*
+nav .nav_jeu{
+	background: url(img/design_boutonjeu.png) no-repeat;
+}
+nav .nav_presse{
+	background-image: url(img/design_boutonpresse.png);
+}
+nav .nav_contact{
+	background-image: url(img/design_boutoncontact.png);
+}*/
+
+
+/*************** Bouton achat **************/
+.acheter_jeu{
+	float: right;
+	width: 15%;
 }
 
+.lien_acheter_jeu{
+	float: right;
+}
+
+.image_acheter{
+	float: right;
+}
+
+.image_acheter_txt_cliquez{
+	float: right;
+	margin-right: -79%;
+	margin-top: 21.5%;
+}
+.image_acheter_txt_acheter{
+	float: right;
+	margin-right: -90%;
+	margin-top: 95%;
+}
+.image_acheter_glacon{
+	float: right;
+	margin-right: -36%;
+	margin-top: 67%;
+}
 
 /************ contenu **************/
 
@@ -169,9 +251,9 @@ nav a{
 */
 
 #contenu{
-	background-color: #FFFFFF;
+	background-color: #2A626A;/*#FFFFFF;*/
 	padding: 5% 5% 5% 5%;
-	border-radius: 5px;
+	border-radius: 40px;
 }
 
 

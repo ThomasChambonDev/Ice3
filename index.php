@@ -18,18 +18,49 @@
 
 	<div id="conteneur">
 		<div id="header">
-
-			<img src="img/bandeau_header.png"/>
-			<div class="spacer"></div>
+			<img class="logo_haut" src="img/design_logo.png"/>
 		</div>
 
-		<nav>
-			<a class="bleu" href="index.php">Le jeu</a>
-			<a class="bleu" href="acheter.html">Où l'acheter</a>
-			<a class="bleu" href="presse.html">La presse</a>
-			<a class="bleu" href="contact.html">Contact</a>
-		</nav>
 		
+		<nav>
+			<a class="nav_jeu" href="index.php">
+				<img class="image_bouton image_bouton_jeu" src="img/design_boutonjeu.png"/>
+				<img class="texte_bouton texte_bouton_1a" src="img/design_le.png"/>
+				<img class="texte_bouton texte_bouton_1b" src="img/design_jeu.png"/>
+		
+				<!--<p class="texte_bouton texte_bouton_1a degrade_bouton">LE</p>
+				<p class="texte_bouton texte_bouton_1b degrade_bouton">JEU</p>-->
+				<div class="spacer"></div>
+			</a>
+			<div class="spacer"></div>
+			<!-- <a class="bleu" href="acheter.html">Où l'acheter</a> -->
+			<a class="nav_presse" href="presse.html">
+				<img class="image_bouton image_bouton_presse" src="img/design_boutonpresse.png"/>
+				<img class="texte_bouton texte_bouton_2a" src="img/design_petitlogo.png"/>
+				<img class="texte_bouton texte_bouton_2b" src="img/design_dansla.png"/>
+				<img class="texte_bouton texte_bouton_2c" src="img/design_presse.png"/>
+				<!--<p class="texte_bouton texte_bouton_2a">DANS LA</p>
+				<p class="texte_bouton texte_bouton_2b">PRESSE</p>-->
+			</a>
+			<div class="spacer"></div>
+			<a class="nav_contact" href="contact.html">
+				<img class="image_bouton image_bouton_contact" src="img/design_boutoncontact.png"/>
+				<img class="texte_bouton texte_bouton_3" src="img/design_contact.png"/>
+				<!--<p class="texte_bouton texte_bouton_3">CONTACT</p>-->
+			</a>
+			<div class="spacer"></div>
+			
+		</nav>
+
+		<div class="acheter_jeu">
+			<a class="lien_acheter_jeu" href="">
+				<img class="image_acheter" src="img/design_boutonacheter.png"/>
+				<img class="image_acheter_txt_cliquez" src="img/design_cliquezici.png"/>
+				<img class="image_acheter_txt_acheter" src="img/design_acheterjeu.png"/>
+				<img class="image_acheter_glacon" src="img/design_glacon_acheter.png"/>
+			</a>
+		</div>
+
 		<section id="contenu">
 		
 			<section id="presentation">
@@ -37,10 +68,10 @@
 			
 				<iframe width="480" height="270" src="http://www.dailymotion.com/embed/video/xkzr4s"></iframe>
 			
-				<div id="acheter_droite">
+				<!--<div id="acheter_droite">
 					<img class="img_description" src="img/description_200.png"/>
 					<a class="link_jenveuxun" href="http://www.mywittygames.com/shop/product/ice3" target="_blank">Je le veux! &raquo;</a>
-				</div>
+				</div>-->
 			</section>
 			
 			<section id="regles">
