@@ -15,7 +15,7 @@
 </head>
 
 <body>
-TEST2
+
 	<div id="conteneur">
 		<div id="header">
 
@@ -38,7 +38,7 @@ TEST2
 				<iframe width="480" height="270" src="http://www.dailymotion.com/embed/video/xkzr4s"></iframe>
 			
 				<div id="acheter_droite">
-					<img class="img_description" src="img/description_200.jpg"/>
+					<img class="img_description" src="img/description_200.png"/>
 					<a class="link_jenveuxun" href="http://www.mywittygames.com/shop/product/ice3" target="_blank">Je le veux! &raquo;</a>
 				</div>
 			</section>
