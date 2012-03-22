@@ -51,7 +51,9 @@
 			<div class="spacer"></div>
 			
 		</nav>
+		
 
+		
 		<div class="acheter_jeu">
 			<a class="lien_acheter_jeu" href="">
 				<img class="image_acheter" src="img/design_boutonacheter.png"/>
@@ -63,17 +65,11 @@
 
 		<section id="contenu">
 		
-			<section id="presentation">
+			<iframe class="video_presentation" width="576" height="324" src="http://www.dailymotion.com/embed/video/xkzr4s"></iframe>
+
+			<img class="accroche" src="img/design_accroche.png"/>
 		
-			
-				<iframe width="480" height="270" src="http://www.dailymotion.com/embed/video/xkzr4s"></iframe>
-			
-				<!--<div id="acheter_droite">
-					<img class="img_description" src="img/description_200.png"/>
-					<a class="link_jenveuxun" href="http://www.mywittygames.com/shop/product/ice3" target="_blank">Je le veux! &raquo;</a>
-				</div>-->
-			</section>
-			
+		
 			<section id="regles">
 
 				<section id="but_du_jeu">
@@ -98,7 +94,45 @@
 					<p>Attention car les autres joueurs vont tout tenter pour le faire fondre!</p>
 					<div class="spacer"></div>
 				</section>
-					
+
+			<section id="flashContent">
+				<h2>Le tutoriel !</h2>
+			
+				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="600" height="600" id="wice3-2012_03_21" align="middle">
+					<param name="movie" value="wice3-2012_03_21.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#999999" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+					<!--[if !IE]>-->
+					<object type="application/x-shockwave-flash" data="img/tuto_ice3.swf" width="600" height="600">
+						<param name="movie" value="wice3-2012_03_21.swf" />
+						<param name="quality" value="high" />
+						<param name="bgcolor" value="#999999" />
+						<param name="play" value="true" />
+						<param name="loop" value="true" />
+						<param name="wmode" value="window" />
+						<param name="scale" value="showall" />
+						<param name="menu" value="true" />
+						<param name="devicefont" value="false" />
+						<param name="salign" value="" />
+						<param name="allowScriptAccess" value="sameDomain" />
+					<!--<![endif]-->
+						<a href="http://www.adobe.com/go/getflash">
+							<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+						</a>
+					<!--[if !IE]>-->
+					</object>
+					<!--<![endif]-->
+				</object>
+			</section>
+				
 				<section id="attaques">
 					<h2>Les attaques en images</h2>
 					<p>Chaque attaque va réduire la taille de votre glaçon! Evitez-les à tout prix!</p>
@@ -189,7 +223,6 @@
 			<section id="contenu_boite">
 				<h2>Contenu de la boîte</h2>
 				<p>Ce que vous trouverez à l'intérieur</p>
-				<br/>
 				<ul class="contenu_boite">
 					<li class="element_avec_illustration">
 						- 5 supports à glaçon de couleur (gobelet + porte-glaçon)<img class="contenu_gobelet" src="img/gobelet.png"/>x5
@@ -206,17 +239,11 @@
 						<li>- 28 cartes "Défense"</li>
 					</ul>
 				</ul>
-			</section>		
-			
-			<section id="presse">
-				<h2>Ils en parlent</h2>
-				<p>BLA BLA BLA</p>
 			</section>
 						
 		</section>
 		
 		<footer>
-			
 		</footer>
 
 	</div>

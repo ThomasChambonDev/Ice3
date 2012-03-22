@@ -3,9 +3,11 @@
 /************** Presentation *************/
 
 
-#presentation{
-	height:270px;
-	margin-bottom: 20px;
+.video_presentation{
+	margin: 0 0 0 8%;
+}
+.accroche{
+	margin: -5% 0 5% 9%;
 }
 #acheter_droite{
 	float:right;
@@ -81,7 +83,16 @@
 #regles{
 	width:100%;
 }
-	
+#regles h1{
+	/*color: #ffffff;*/
+}	
+#regles h2{
+	/*color: #ffffff;*/
+}	
+#regles p{
+	/*color: #ffffff;*/
+}	
+
 /************** But du jeu ****************/
 #but_du_jeu{
 	/*height: 500px;*/
@@ -199,6 +210,7 @@
 .carte_defense{
 	/*margin-left: 10%;*/
 	float: right;
+	margin-right: 10%;
 }
 
 
