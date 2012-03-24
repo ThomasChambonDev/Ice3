@@ -2,12 +2,42 @@
 
 /************** Presentation *************/
 
+.conteneur_video_accroche{
+	width: 77%;
+	margin: 0 auto;
+}
+
+/* Trick pour resizer les vidéos dailymotion */
+.video_container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video_container iframe,  
+.video_container object,  
+.video_container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* Fin du trick */
 
 .video_presentation{
-	margin: 0 0 0 8%;
+	/*margin: 0 0 0 8%;*/
 }
 .accroche{
-	margin: -5% 0 5% 9%;
+	/*position: absolute;
+	top: 87%;
+	left: 35%;
+	width: 30%;*/
+	width: 95%;
+	margin-top: 0;
+	margin-left: 2.5%;
 }
 #acheter_droite{
 	float:right;
@@ -71,6 +101,39 @@
 .link_jenveuxun, .link_jenveuxun:visited		{ background-color: #E09C00; /*#2daebf;*/ }
 .link_jenveuxun:hover							{ background-color: rgb(67, 191, 40); /*#E09A00;*//*#007d9a;*/ }
 	
+	
+/************** Le contenu ****************/
+
+
+#fond_contenu_bas{
+	background: #2a626a;
+	padding: 3% 10% 5% 10%;
+	border-radius: 40px;
+
+}
+
+#contenu_bas{
+	background-color: #ffffff;
+	padding: 5% 5% 5% 5%;
+	border-radius: 40px;
+
+}
+	
+background: #2a626a; /* Old browsers */
+background: -moz-linear-gradient(top,  #2a626a 0%,#2a626a 2%, #ffffff 4%, #ffffff 83%, #2a626a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2a626a), color-stop(18%,#ffffff), color-stop(83%,#ffffff), color-stop(100%,#2a626a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%); /* IE10+ */
+background: linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a626a', endColorstr='#2a626a',GradientType=0 ); /* IE6-9 */
+
+#contenu{
+	border-radius: 40px;
+	padding: 5%;
+	background: #ffffff;
+}
+	
 /************** Les cartes ****************/
 .carte{
 	width: 22%;
@@ -83,21 +146,17 @@
 #regles{
 	width:100%;
 }
-#regles h1{
-	/*color: #ffffff;*/
-}	
-#regles h2{
-	/*color: #ffffff;*/
-}	
 #regles p{
 	/*color: #ffffff;*/
 }	
+
 
 /************** But du jeu ****************/
 #but_du_jeu{
 	/*height: 500px;*/
 	margin-bottom: 3%;
 }
+
 
 .verre{
 	-moz-transform:rotate(-5deg); /*firefox*/
@@ -114,6 +173,7 @@
 	width: 100%;
 	height: 82%;
 	margin-top: 3%;
+	margin-left: 5%;
 }
 
 .carte_extreme{
@@ -165,12 +225,20 @@
 	margin-left: 10%;
 }
 
+/************** Le tutoriel ****************/
+.tutoriel{
+	margin-bottom: 5%;
+}
+	
+.tutoriel object{
+	margin-left: 5%;
+}	
 	
 /************** Les attaques ***************/
 
 .attaque{
 	width: 100%;
-	margin-bottom: 3%;
+	margin-bottom: 5%;
 }
 
 .attaque_olivier{
@@ -218,7 +286,7 @@
 #cartes_mouvements{
 	/*height: 400px;*/
 	/*position:relative;*/
-	margin-bottom: 3%;
+	margin-bottom: 5%;
 }
 
 .carte_mouvement_1{
@@ -284,6 +352,15 @@
 	-o-transform:rotate(10deg); /*Opera*/	
 	z-index:1;
 }
+
+/*************** Parcours *******************/
+#parcours{
+	margin-bottom: 5%;
+}
+.parcours{
+	width: 93%;
+}
+
 
 /*************** Contenu de la boîte *******************/
 .contenu_boite{

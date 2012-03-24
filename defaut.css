@@ -56,6 +56,28 @@ table {
 	margin-bottom: 2%;
 }
 
+/*************** Media queries *****************/
+
+@media screen and (min-width: 800px){
+	#conteneur{
+		width: 61.8%;/*61.8%;*/
+	}
+}
+
+@media screen and (max-width: 1024px){
+	#conteneur{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	#conteneur{
+		width: 95%;
+	}
+}
+
+
+
 
 /*************** Elements génériques ***********/
 html{
@@ -66,12 +88,24 @@ html{
 
 body{
 	width: 100%;
-	height: 100%;
-	background: url(img/design_fondsite.jpg);/*background: url(img/effet_givre.jpg) scroll;*//*url("img/fond.png") repeat-y scroll*/ /*#45B6C4;*/
+	/*height: 100%;*/
+	background: url(img/design_fondsite.png) no-repeat;
+	background-position: -150px 60%;  
+	-webkit-background-size: 120%; /* pour Chrome et Safari */
+	-moz-background-size: 120%; /*cover;*/ /* pour Firefox */
+	-o-background-size: 120%; /* pour Opera */
+	background-size: 120%; /* version standardisée */
+	background-color: #CCE8F4;*
+
 }
 
+h1{
+	font-family: Impact, fantasy;
+	font-size: 1.5em;
+}
 h2{
 	font-family: Impact, fantasy;
+	font-size: 1.5em;
 }
 p{
 	font-size: 1em;
@@ -80,7 +114,6 @@ p{
 }
 
 #conteneur{
-	width: 61.8%;/*61.8%;*/
 	height: 100%;
 	margin: 0 auto;
 }
@@ -106,12 +139,11 @@ img{
 /************** Navigation *****************/
 nav{
 	float: left;
-	width: 15%;
+	width: 20%;
 }
 nav a{
 	float:left;
 	text-decoration: none;
-	margin-right: 19%;
 	width: 100%;
 }
 .image_bouton{
@@ -126,11 +158,14 @@ nav a{
 .nav_presse{
 	margin-top: 0%;
 	margin-left: -6.5%;
+	width: 90%;
 }
 .nav_contact{
 	margin-top: 6%;
 	margin-left: -4.5%;
+	width: 90%;
 }
+/*
 .texte_bouton{
 	float: left;
 }
@@ -164,6 +199,7 @@ nav a{
 	margin-top: 12%;
 	margin-left: -68%;
 }
+*/
 /*
 nav .nav_jeu{
 	background: url(img/design_boutonjeu.png) no-repeat;
@@ -179,7 +215,7 @@ nav .nav_contact{
 /*************** Bouton achat **************/
 .acheter_jeu{
 	float: right;
-	width: 15%;
+	width: 20%;
 }
 
 .lien_acheter_jeu{
@@ -209,6 +245,14 @@ nav .nav_contact{
 	width: 45%;
 	margin-right: -36%;
 	margin-top: 67%;
+}
+.image_glacons_colles{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 20.1%;
+}
+.image_boite{
+	width: 70%;
 }
 
 /************ contenu **************/
@@ -256,21 +300,36 @@ nav .nav_contact{
 }
 */
 
-#contenu{
+
+
+#contenu_haut{
+	width: 70%;
 	background-color: #2A626A;/*#FFFFFF;*/
-	padding: 5% 15% 5% 15%;
+	padding: 5% 15% 1% 15%;
 	border-radius: 40px;
+	margin-bottom: 3%;
+	display: block;
 	/*height: 50%;*/
 	
-	
-background: #2a626a; /* Old browsers */
-background: -moz-linear-gradient(top,  #2a626a 0%,#2a626a 8%, #ffffff 15%, #ffffff 83%, #2a626a 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2a626a), color-stop(18%,#ffffff), color-stop(83%,#ffffff), color-stop(100%,#2a626a)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%); /* IE10+ */
-background: linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a626a', endColorstr='#2a626a',GradientType=0 ); /* IE6-9 */
+
+/*background: #2a626a;*/ /* Old browsers */
+/*background: -moz-linear-gradient(top,  #2a626a 0%,#2a626a 8%, #ffffff 15%, #ffffff 83%, #2a626a 100%);*/ /* FF3.6+ */
+/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2a626a), color-stop(18%,#ffffff), color-stop(83%,#ffffff), color-stop(100%,#2a626a));*/ /* Chrome,Safari4+ */
+/*background: -webkit-linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%);*/ /* Chrome10+,Safari5.1+ */
+/*background: -o-linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%);*/ /* Opera 11.10+ */
+/*background: -ms-linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%);*/ /* IE10+ */
+/*background: linear-gradient(top,  #2a626a 0%,#ffffff 18%,#ffffff 83%,#2a626a 100%);*/ /* W3C */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a626a', endColorstr='#2a626a',GradientType=0 );*/ /* IE6-9 */
+
+background: #347a84; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #347a84 0%, #003b45 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#347a84), color-stop(100%,#003b45)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #347a84 0%,#003b45 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #347a84 0%,#003b45 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #347a84 0%,#003b45 100%); /* IE10+ */
+background: linear-gradient(-45deg,  #347a84 0%,#003b45 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#347a84', endColorstr='#003b45',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 
 /*
 background: #2a626a; 
@@ -285,11 +344,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a626a', end
 
 }
 
-#contenu_bas{
-	background-color: #FFFFFF;
-	padding: 15% 15% 15% 15%;
-	border-radius: 40px;
-}
 /************** Footer ***************/
 footer{
 }

@@ -5,7 +5,7 @@
 <head>
 
 	<link rel="stylesheet" href="defaut.css">
-	<link rel="stylesheet" href="acheter.css">
+	<link rel="stylesheet" href="presse.css">
 
 <meta charset="UTF-8"/>	
 	
@@ -18,21 +18,80 @@
 
 	<div id="conteneur">
 		<div id="header">
-
-			<img src="img/bandeau_header.png"/>
-
+			<img class="logo_haut" src="img/design_logo.png"/>
 		</div>
 
+		
 		<nav>
-			<a class="bleu" href="index.php">Le jeu</a>
-			<a class="bleu" href="acheter.html">Où l'acheter</a>
-			<a class="bleu" href="presse.html">La presse</a>
-			<a class="bleu" href="contact.html">Contact</a>
+			<a class="nav_jeu" href="index.php">
+				<img class="image_bouton image_bouton_jeu" src="img/bouton_lejeu.png"/>
+			
+				<!--<img class="image_bouton image_bouton_jeu" src="img/design_boutonjeu.png"/>
+				<img class="texte_bouton texte_bouton_1a" src="img/design_le.png"/>
+				<img class="texte_bouton texte_bouton_1b" src="img/design_jeu.png"/>-->
+		
+				<!--<p class="texte_bouton texte_bouton_1a degrade_bouton">LE</p>
+				<p class="texte_bouton texte_bouton_1b degrade_bouton">JEU</p>-->
+				<div class="spacer"></div>
+			</a>
+			<div class="spacer"></div>
+			<!-- <a class="bleu" href="acheter.html">Où l'acheter</a> -->
+			<a class="nav_presse" href="presse.html">
+				<img class="image_bouton image_bouton_presse" src="img/bouton_presse.png"/>
+				<!--<img class="image_bouton image_bouton_presse" src="img/design_boutonpresse.png"/>
+				<img class="texte_bouton texte_bouton_2a" src="img/design_petitlogo.png"/>
+				<img class="texte_bouton texte_bouton_2b" src="img/design_dansla.png"/>
+				<img class="texte_bouton texte_bouton_2c" src="img/design_presse.png"/>-->
+				<!--<p class="texte_bouton texte_bouton_2a">DANS LA</p>
+				<p class="texte_bouton texte_bouton_2b">PRESSE</p>-->
+			</a>
+			<div class="spacer"></div>
+			<a class="nav_contact" href="contact.html">
+				<img class="image_bouton image_bouton_contact" src="img/bouton_contact.png"/>
+				<!--<img class="image_bouton image_bouton_contact" src="img/design_boutoncontact.png"/>
+				<img class="texte_bouton texte_bouton_3" src="img/design_contact.png"/>-->
+				<!--<p class="texte_bouton texte_bouton_3">CONTACT</p>-->
+			</a>
+			<div class="spacer"></div>
+			
 		</nav>
 		
-		<section id="contenu">
 
-			<h1>Ils parlent de Ice3 :</h1>			
+		
+		<div class="acheter_jeu">
+			<a class="lien_acheter_jeu" href="">
+				<img class="image_acheter" src="img/design_boutonacheter.png"/>
+				<img class="image_acheter_txt_cliquez" src="img/design_cliquezici.png"/>
+				<img class="image_acheter_txt_acheter" src="img/design_acheterjeu.png"/>
+				<img class="image_acheter_glacon" src="img/design_glacon_acheter.png"/>
+			</a>
+		</div>
+
+		<section id="contenu_haut">
+		
+			<h2>Ils en parlent</h2>
+			
+			<div class="element_presse">
+				<a href="http://www.pepitesludiques.com/article-l-interview-exceptionnelle-d-olivier-mahy-l-auteur-de-ice3-101869615.html" target="_blank"><img src="img/presse_pepitesludiques.jpg"/></a>
+				<p>
+					Pépites ludiques: <a href="http://www.pepitesludiques.com/article-l-interview-exceptionnelle-d-olivier-mahy-l-auteur-de-ice3-101869615.html" target="_blank">L'interview d'Olivier Mahy</a>
+				</p>
+			</div>
+
+			<div class="element_presse">
+				<a href="http://www.gamestories.fr/actu-284-Interview-d-Olivier-Mahy-createur-du-jeu-des-glacons-ICE-.html" target="_blank"><img src="img/presse_gamestories.jpg"/></a>
+				<p>
+					Gamestories: <a href="http://www.gamestories.fr/actu-284-Interview-d-Olivier-Mahy-createur-du-jeu-des-glacons-ICE-.html" target="_blank">Une autre interview d'Olivier Mahy</a>
+				</p>
+			</div>
+			
+			<div class="element_presse decalage">
+				<a href="http://www.jedisjeux.net/avec-ou-sans-glacon-s-n-3263.html" target="_blank"><img src="img/presse_jedisjeux.jpg"/></a>
+				<p>
+					Jedisjeux: <a href="http://www.jedisjeux.net/avec-ou-sans-glacon-s-n-3263.html" target="_blank">Ice3 chez Jedisjeux!</a>
+				</p>
+			</div>
+			
 		</section>
 		
 		<footer>

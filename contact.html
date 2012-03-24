@@ -5,7 +5,7 @@
 <head>
 
 	<link rel="stylesheet" href="defaut.css">
-	<link rel="stylesheet" href="acheter.css">
+	<link rel="stylesheet" href="contact.css">
 
 <meta charset="UTF-8"/>	
 	
@@ -18,26 +18,86 @@
 
 	<div id="conteneur">
 		<div id="header">
-
-			<img src="img/bandeau_header.png"/>
-
+			<img class="logo_haut" src="img/design_logo.png"/>
 		</div>
 
+		
 		<nav>
-			<a class="bleu" href="index.php">Le jeu</a>
-			<a class="bleu" href="acheter.html">Où l'acheter</a>
-			<a class="bleu" href="presse.html">La presse</a>
-			<a class="bleu" href="contact.html">Contact</a>
+			<a class="nav_jeu" href="index.php">
+				<img class="image_bouton image_bouton_jeu" src="img/bouton_lejeu.png"/>
+			
+				<!--<img class="image_bouton image_bouton_jeu" src="img/design_boutonjeu.png"/>
+				<img class="texte_bouton texte_bouton_1a" src="img/design_le.png"/>
+				<img class="texte_bouton texte_bouton_1b" src="img/design_jeu.png"/>-->
+		
+				<!--<p class="texte_bouton texte_bouton_1a degrade_bouton">LE</p>
+				<p class="texte_bouton texte_bouton_1b degrade_bouton">JEU</p>-->
+				<div class="spacer"></div>
+			</a>
+			<div class="spacer"></div>
+			<!-- <a class="bleu" href="acheter.html">Où l'acheter</a> -->
+			<a class="nav_presse" href="presse.html">
+				<img class="image_bouton image_bouton_presse" src="img/bouton_presse.png"/>
+				<!--<img class="image_bouton image_bouton_presse" src="img/design_boutonpresse.png"/>
+				<img class="texte_bouton texte_bouton_2a" src="img/design_petitlogo.png"/>
+				<img class="texte_bouton texte_bouton_2b" src="img/design_dansla.png"/>
+				<img class="texte_bouton texte_bouton_2c" src="img/design_presse.png"/>-->
+				<!--<p class="texte_bouton texte_bouton_2a">DANS LA</p>
+				<p class="texte_bouton texte_bouton_2b">PRESSE</p>-->
+			</a>
+			<div class="spacer"></div>
+			<a class="nav_contact" href="contact.html">
+				<img class="image_bouton image_bouton_contact" src="img/bouton_contact.png"/>
+				<!--<img class="image_bouton image_bouton_contact" src="img/design_boutoncontact.png"/>
+				<img class="texte_bouton texte_bouton_3" src="img/design_contact.png"/>-->
+				<!--<p class="texte_bouton texte_bouton_3">CONTACT</p>-->
+			</a>
+			<div class="spacer"></div>
+			
 		</nav>
 		
-		<section id="contenu">
+
 		
-			<h1>Contact</h1>
+		<div class="acheter_jeu">
+			<a class="lien_acheter_jeu" href="">
+				<img class="image_acheter" src="img/design_boutonacheter.png"/>
+				<img class="image_acheter_txt_cliquez" src="img/design_cliquezici.png"/>
+				<img class="image_acheter_txt_acheter" src="img/design_acheterjeu.png"/>
+				<img class="image_acheter_glacon" src="img/design_glacon_acheter.png"/>
+			</a>
+		</div>
+
+		<section id="contenu_haut">
 		
-			<p>Contactez-nous à l'adresse:</p>
-			<a href="mailto:contact@mywittygames.com">contact@mywittygames.com</a>
+			<section class="contact">
+				<h2>Contact</h2>
+				<p>Ice3 est un jeu Witty Editions</p>
+				<p>Il a été édité grâce à la plate-forme communautaire <a href="http://www.mywittygames.com">www.mywittygames.com</a> et a recueilli le soutien et le financement de 436 édinautes.</p>
+				<p>Contactez-nous à l'adresse: <a href="mailto:contact@mywittygames.com">contact@mywittygames.com</a></p>
+			</section>
+		
+			<section class="adresse">
+				<h2>Witty Editions</h2>
+				<p>
+					14 rue Soleillet<br/>
+					75020, Paris<br/>
+					Tél: +33 (0) 1 43 43 41 68<br/>
+					Raison Sociale : Witty Editions SAS <br/>
+					Adresse : 14 Rue Soleillet 75020 Paris, France <br/>
+					Capital Social : 5625 €<br/>
+					Numéro SIRET : 52351824900017
+				</p>
+			</section>
+			
+			<section class="infos_illustrations">
+				<h2>Illustrations</h2>
+				<p>
+					Les illustrations sont réalisées par AlexA: <a href="http://alexbd.com/">http://alexbd.com/</a>
+				</p>
+			</section>
 			
 		</section>
+
 		
 		<footer>
 			
