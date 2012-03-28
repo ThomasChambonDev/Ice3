@@ -41,32 +41,14 @@
 		<nav>
 			<a class="nav_jeu" href="index.php">
 				<img class="image_bouton image_bouton_jeu" src="img/bouton_lejeu.png"/>
-			
-				<!--<img class="image_bouton image_bouton_jeu" src="img/design_boutonjeu.png"/>
-				<img class="texte_bouton texte_bouton_1a" src="img/design_le.png"/>
-				<img class="texte_bouton texte_bouton_1b" src="img/design_jeu.png"/>-->
-		
-				<!--<p class="texte_bouton texte_bouton_1a degrade_bouton">LE</p>
-				<p class="texte_bouton texte_bouton_1b degrade_bouton">JEU</p>-->
-				<div class="spacer"></div>
 			</a>
 			<div class="spacer"></div>
-			<!-- <a class="bleu" href="acheter.html">Où l'acheter</a> -->
 			<a class="nav_presse" href="presse.html">
 				<img class="image_bouton image_bouton_presse" src="img/bouton_presse.png"/>
-				<!--<img class="image_bouton image_bouton_presse" src="img/design_boutonpresse.png"/>
-				<img class="texte_bouton texte_bouton_2a" src="img/design_petitlogo.png"/>
-				<img class="texte_bouton texte_bouton_2b" src="img/design_dansla.png"/>
-				<img class="texte_bouton texte_bouton_2c" src="img/design_presse.png"/>-->
-				<!--<p class="texte_bouton texte_bouton_2a">DANS LA</p>
-				<p class="texte_bouton texte_bouton_2b">PRESSE</p>-->
 			</a>
 			<div class="spacer"></div>
 			<a class="nav_contact" href="contact.html">
 				<img class="image_bouton image_bouton_contact" src="img/bouton_contact.png"/>
-				<!--<img class="image_bouton image_bouton_contact" src="img/design_boutoncontact.png"/>
-				<img class="texte_bouton texte_bouton_3" src="img/design_contact.png"/>-->
-				<!--<p class="texte_bouton texte_bouton_3">CONTACT</p>-->
 			</a>			
 			<img class="image_glacons_colles" src="img/design_glaconscolles.png"/>
 			<div class="spacer"></div>
@@ -82,7 +64,9 @@
 				<img class="image_acheter_txt_acheter" src="img/design_acheterjeu.png"/>
 				<img class="image_acheter_glacon" src="img/design_glacon_acheter.png"/>
 			</a>
-			<img class="image_boite" src="img/description_200.png"/>
+			<a class="" href="">
+				<img class="image_boite" src="img/boite_ice3_halo.png"/>
+			</a>
 		</div>
 
 		
@@ -128,20 +112,8 @@
 						<h2>Le tutoriel !</h2>
 						<p>L'explication des règles</p>
 					
-						<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="600" height="600" id="wice3-2012_03_21" align="middle">
-							<param name="movie" value="wice3-2012_03_21.swf" />
-							<param name="quality" value="high" />
-							<param name="bgcolor" value="#999999" />
-							<param name="play" value="true" />
-							<param name="loop" value="true" />
-							<param name="wmode" value="window" />
-							<param name="scale" value="showall" />
-							<param name="menu" value="true" />
-							<param name="devicefont" value="false" />
-							<param name="salign" value="" />
-							<param name="allowScriptAccess" value="sameDomain" />
-							<!--[if !IE]>-->
-							<object type="application/x-shockwave-flash" data="img/tuto_ice3.swf" width="600" height="600">
+						<div id="tuto_container">
+							<object id="tuto_flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="600" height="600" id="wice3-2012_03_21" align="middle">
 								<param name="movie" value="wice3-2012_03_21.swf" />
 								<param name="quality" value="high" />
 								<param name="bgcolor" value="#999999" />
@@ -153,14 +125,28 @@
 								<param name="devicefont" value="false" />
 								<param name="salign" value="" />
 								<param name="allowScriptAccess" value="sameDomain" />
-							<!--<![endif]-->
-								<a href="http://www.adobe.com/go/getflash">
-									<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-								</a>
-							<!--[if !IE]>-->
+								<!--[if !IE]>-->
+								<object type="application/x-shockwave-flash" data="img/tuto_ice3.swf" width="600" height="600">
+									<param name="movie" value="wice3-2012_03_21.swf" />
+									<param name="quality" value="high" />
+									<param name="bgcolor" value="#999999" />
+									<param name="play" value="true" />
+									<param name="loop" value="true" />
+									<param name="wmode" value="window" />
+									<param name="scale" value="showall" />
+									<param name="menu" value="true" />
+									<param name="devicefont" value="false" />
+									<param name="salign" value="" />
+									<param name="allowScriptAccess" value="sameDomain" />
+								<!--<![endif]-->
+									<a href="http://www.adobe.com/go/getflash">
+										<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+									</a>
+								<!--[if !IE]>-->
+								</object>
+								<!--<![endif]-->
 							</object>
-							<!--<![endif]-->
-						</object>
+						</div>
 					</section>
 					
 					<section id="attaques">
@@ -251,8 +237,15 @@
 				</section>
 				
 				<section id="contenu_boite">
+
 					<h2>Contenu de la boîte</h2>
 					<p>Ce que vous trouverez à l'intérieur</p>
+					<a class="lien_acheter_jeu_bas_de_page" href="">
+						<img class="image_acheter" src="img/design_boutonacheter.png"/>
+						<img class="image_acheter_txt_cliquez" src="img/design_cliquezici.png"/>
+						<img class="image_acheter_txt_acheter" src="img/design_acheterjeu.png"/>
+						<img class="image_acheter_glacon" src="img/design_glacon_acheter.png"/>
+					</a>
 					<ul class="contenu_boite">
 						<li class="element_avec_illustration">
 							- 5 supports à glaçon de couleur (gobelet + porte-glaçon)<img class="contenu_gobelet" src="img/gobelet.png"/>x5
@@ -269,12 +262,15 @@
 							<li>- 28 cartes "Défense"</li>
 						</ul>
 					</ul>
-				</section>
 					
+				</section>
+				
 			</section>
+
 		</section>
 		
 		<footer>
+			<img class="accroche_footer" src="img/accroche.png"/>
 		</footer>
 
 	</div>

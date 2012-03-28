@@ -109,7 +109,6 @@
 	background: #2a626a;
 	padding: 3% 10% 5% 10%;
 	border-radius: 40px;
-
 }
 
 #contenu_bas{
@@ -233,7 +232,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a626a', end
 .tutoriel object{
 	margin-left: 5%;
 }	
-	
+
+/* Trick pour resizer les vidéos dailymotion */
+#tuto_container{
+	position: relative;
+	padding-bottom: 80%;
+	padding-left: 0;
+	padding-right: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+#tuto_container object{
+	position: absolute;
+	top: 0;
+	/*left: -5%;*/
+	width: 89.55%;
+	height: 100%;
+}	
+
+/* Fin du trick */
 /************** Les attaques ***************/
 
 .attaque{
@@ -383,4 +401,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a626a', end
 	vertical-align: middle;
 	margin-left: 2%;
 	width: 7%;
+}
+
+.lien_acheter_jeu_bas_de_page{
+	float: right;
+	margin-right: -20%;
+	margin-top : -5%;
+	width: 25%;
+}
+
+/************* Footer *********************/
+footer{
+	width: 100%;
+}
+.accroche_footer{
+	float:left;
+	width: 50%;
+	padding: 0 0 0 25%;
+	margin-top: -11%;
 }
