@@ -13,6 +13,13 @@ h2{
 
 #contenu_haut img{
 	max-width: 75%;
+	margin-bottom: 1%;
+}
+
+.dossier_presse{
+	font-size: 1.8em;
+	font-weight: 600;
+	color: white;
 }
 
 .element_presse{
@@ -21,4 +28,8 @@ h2{
 
 .decalage{
 	margin-left: 7.1%;
+}
+
+.people{
+	margin-top: 5%;
 }

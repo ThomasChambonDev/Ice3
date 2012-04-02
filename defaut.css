@@ -136,6 +136,14 @@ img{
 	margin: 0 auto -3.5%;
 }
 
+.pastille_edinautes{
+	float: right;
+	width: 15%;
+	margin-right: 2%;
+	margin-top: 2%;
+}
+
+
 /************** Navigation *****************/
 nav{
 	float: left;

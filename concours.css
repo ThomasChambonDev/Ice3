@@ -1,13 +1,17 @@
 /************ Media queries ***********/
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1378px){
 	.champ_email{
 		margin-left: 29%;
 	}
 }
-
+@media screen and (min-width: 800px) and (max-width: 1378px){
+	.champ_email{
+		margin-left: 20%;
+	}
+}
 @media screen and (min-width: 480px) and (max-width: 800px){
 	.champ_email{
-		margin-left: 0;
+		margin-left: 10%;
 	}
 }
 @media screen and (min-width: 480px) and (max-width: 600px){
@@ -45,12 +49,12 @@
 }
 .tshirts{
 	margin-top: 3%;
-	margin-left: 10%;
-	width: 32%;
+	margin-left: 12%;
+	width: 28%;
 }
 .boite_ice3{
 	margin-left: 15%;
-	width: 25%;
+	width: 23%;
 }
 .texte_participation{
 	margin-left: 25%;

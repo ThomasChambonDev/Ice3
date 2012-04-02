@@ -31,6 +31,8 @@
 
 <body>
 
+	<img class="pastille_edinautes" alt="Ice3 a été édité par 436 édinautes" src="img/Pastille436Edinautes.png"/>
+	
 	<div id="conteneur">
 	
 		<div id="header">
