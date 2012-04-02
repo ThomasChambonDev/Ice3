@@ -34,30 +34,30 @@
 	<div id="conteneur">
 	
 		<div id="header">
-			<img class="logo_haut" src="img/design_logo.png"/>
+			<img class="logo_haut" alt="Logo Ice3" src="img/design_logo.png"/>
 		</div>
 
 	
 		<nav>
 			<a class="nav_jeu" href="index.php">
-				<img class="image_bouton image_bouton_jeu" src="img/bouton_lejeu.png"/>
+				<img class="image_bouton image_bouton_jeu" alt="Jeu Ice3" src="img/bouton_lejeu.png"/>
 			</a>
 			<div class="spacer"></div>
 			<a class="nav_presse" href="presse.html">
-				<img class="image_bouton image_bouton_presse" src="img/bouton_presse.png"/>
+				<img class="image_bouton image_bouton_presse" alt="Presse Ice3" src="img/bouton_presse.png"/>
 			</a>
 			<div class="spacer"></div>
 			<a class="nav_contact" href="contact.html">
-				<img class="image_bouton image_bouton_contact" src="img/bouton_contact.png"/>
+				<img class="image_bouton image_bouton_contact" alt="Contact Ice3" src="img/bouton_contact.png"/>
 			</a>		
 			<div class="spacer"></div>
 			<a class="nav_concours" href="concours.php">
-				<img class="image_bouton image_bouton_concours" src="img/bouton_concours.png"/>
+				<img class="image_bouton image_bouton_concours" alt="Concours Ice3" src="img/bouton_concours.png"/>
 			</a>		
 			<div class="spacer"></div>
-			<a class="nav_jeuflash" href="jeu-ice3.html">
-				<img class="image_bouton image_bouton_jeuflash" src="img/bouton_jeuflash.png"/>
-			</a>			
+			<!--<a class="nav_jeuflash" href="jeu-ice3.html">
+				<img class="image_bouton image_bouton_jeuflash" alt="Jeu flash Ice3" src="img/bouton_jeuflash.png"/>
+			</a>-->			
 			<!--<img class="image_glacons_colles" src="img/design_glaconscolles.png"/>-->
 			<div class="spacer"></div>
 		</nav>
@@ -66,13 +66,13 @@
 		
 		<div class="acheter_jeu">
 			<a class="lien_acheter_jeu" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4">
-				<img class="image_acheter" src="img/design_boutonacheter.png"/>
-				<img class="image_acheter_txt_cliquez" src="img/design_cliquezici.png"/>
-				<img class="image_acheter_txt_acheter" src="img/design_acheterjeu.png"/>
-				<img class="image_acheter_glacon" src="img/design_glacon_acheter.png"/>
+				<img class="image_acheter" alt="Acheter Ice3" src="img/design_boutonacheter.png"/>
+				<img class="image_acheter_txt_cliquez" alt="Cliquez Ice3" src="img/design_cliquezici.png"/>
+				<img class="image_acheter_txt_acheter" alt="Texte achat Ice3" src="img/design_acheterjeu.png"/>
+				<img class="image_acheter_glacon" alt="Glaçons Ice3" src="img/design_glacon_acheter.png"/>
 			</a>
 			<a class="" href="">
-				<img class="image_boite" src="img/boite_ice3_halo.png"/>
+				<img class="image_boite" alt="Boîte Ice3" src="img/boite_ice3_halo.png"/>
 			</a>
 		</div>
 
@@ -82,7 +82,7 @@
 				<div class="video_container">
 					<iframe class="video_presentation" width="576" height="324" src="http://www.dailymotion.com/embed/video/xpjl8g?logo=0&hideInfos=1&forcedQuality=hd720"></iframe>
 				</div>
-				<img class="accroche" src="img/accroche.png"/>
+				<img class="accroche" alt="Accroche Ice3" src="img/accroche.png"/>
 			</div>
 			
 		</section>
@@ -100,12 +100,12 @@
 						<div class="cartes_extremes">
 							<div class="depart carte_extreme">
 								<p class="verre">Votre glaçon est en train de fondre dans le verre!</p>
-								<img class="carte verre" src="img/verre.jpg"/>
+								<img class="carte verre" alt="Carte verre Ice3" src="img/verre.jpg"/>
 							</div>
-							<img class="fleche" src="img/fleche_google.png"/>
+							<img class="fleche" alt="Fleche" src="img/fleche_google.png"/>
 							<div class="arrivee carte_extreme">
 								<p class="bac_a_glacons">Aidez-le à retrouver la douce froideur de son bac à glaçons!</p>
-								<img class="carte bac_a_glacons" src="img/bac_a_glace.jpg"/>
+								<img class="carte bac_a_glacons" alt="Carte bac à glaçons Ice3" src="img/bac_a_glace.jpg"/>
 							</div>
 							
 							<div class="spacer"></div>
@@ -161,58 +161,37 @@
 						<p>Chaque attaque va réduire la taille de votre glaçon! Evitez-les à tout prix!</p>
 						
 						<div class="attaque">
-							<img class="carte impair" src="img/Dragon.jpg"/>
-							<img class="attaque_olivier" src="img/olivier_dragon.png"/>
-							<img class="carte carte_defense impair" src="img/pompier.jpg"/>
+							<img class="carte impair" alt="Carte dragon Ice3" src="img/Dragon.jpg"/>
+							<img class="attaque_olivier" alt="Attaque dragon Ice3 Olivier Mahy" src="img/olivier_dragon.png"/>
+							<img class="carte carte_defense impair" alt="Carte pompier Ice3" src="img/pompier.jpg"/>
 						</div>				
 						<div class="attaque">
-							<img class="carte pair" src="img/Sauna.jpg"/>
-							<img class="attaque_olivier" src="img/olivier_sauna.png"/>
-							<img class="carte carte_defense pair" src="img/igloo.jpg"/>
+							<img class="carte pair" alt="Carte sauna Ice3" src="img/Sauna.jpg"/>
+							<img class="attaque_olivier" alt="Attaque sauna Ice3 Olivier Mahy" src="img/olivier_sauna.png"/>
+							<img class="carte carte_defense pair" alt="Carte Igloo Ice3" src="img/igloo.jpg"/>
 						</div>				
 						<div class="attaque">
-							<img class="carte impair" src="img/lustrage.jpg"/>
-							<img class="attaque_olivier" src="img/olivier_lustrage.png"/>
-							<img class="carte carte_defense impair" src="img/boule_a_neige.jpg"/>
+							<img class="carte impair" alt="Carte lustrage Ice3" src="img/lustrage.jpg"/>
+							<img class="attaque_olivier" alt="Attaque lustrage Ice3 olivier Mahy" src="img/olivier_lustrage.png"/>
+							<img class="carte carte_defense impair" alt="Carte Boule à neige Ice3" src="img/boule_a_neige.jpg"/>
 						</div>				
 						<div class="attaque">
-							<img class="carte pair" src="img/piscine.jpg"/>
-							<img class="attaque_olivier" src="img/olivier_piscine.png"/>
-							<img class="carte carte_defense pair" src="img/bouee.jpg"/>
+							<img class="carte pair" alt="Carte piscine Ice3" src="img/piscine.jpg"/>
+							<img class="attaque_olivier" alt="Attaque piscine Ice3 Olivier Mahy" src="img/olivier_piscine.png"/>
+							<img class="carte carte_defense pair" alt="Carte bouée Ice3" src="img/bouee.jpg"/>
 						</div>				
 						<div class="attaque">
-							<img class="carte impair" src="img/Acide.jpg"/>
-							<img class="attaque_olivier" src="img/olivier_acide.png"/>
-							<img class="carte carte_defense impair" src="img/chimiste.jpg"/>
+							<img class="carte impair" alt="Carte acide Ice3" src="img/Acide.jpg"/>
+							<img class="attaque_olivier" alt="Attaque acide Ice3 Olivier Mahy" src="img/olivier_acide.png"/>
+							<img class="carte carte_defense impair" alt="Carte chimiste Ice3" src="img/chimiste.jpg"/>
 						</div>				
 						<div class="attaque">
-							<img class="carte pair" src="img/Sel.jpg"/>
-							<img class="attaque_olivier" src="img/olivier_sel.png"/>
-							<img class="carte carte_defense pair" src="img/intouchable.jpg"/>
+							<img class="carte pair" alt="Carte sel Ice3" src="img/Sel.jpg"/>
+							<img class="attaque_olivier" alt="Attaque sel Ice3 Olivier Mahy" src="img/olivier_sel.png"/>
+							<img class="carte carte_defense pair" alt="Carte intouchable Ice3" src="img/intouchable.jpg"/>
 						</div>
 						<div class="spacer"></div>
 					</section>
-					
-					
-					<!--<section id="autres_cartes">-->
-						
-						<!--<h2>Les autres cartes</h2>-->
-						
-						<!--
-						<section id="cartes_defenses">
-						
-							<h2>Les cartes de défense</h2>
-						
-							<img class="carte carte_defense carte_defense_1" src="img/pompier.jpg"/>
-							<img class="carte carte_defense carte_defense_2" src="img/igloo.jpg"/>
-							<img class="carte carte_defense carte_defense_3" src="img/boule_a_neige.jpg"/>
-							<img class="carte carte_defense carte_defense_4" src="img/bouee.jpg"/>
-							<img class="carte carte_defense carte_defense_5" src="img/chimiste.jpg"/>
-							<img class="carte carte_defense carte_defense_6" src="img/intouchable.jpg"/>
-							
-							<div class="spacer"></div>
-						</section>
-						-->
 						
 					<section id="cartes_mouvements">
 					
@@ -220,13 +199,13 @@
 					
 						<p>Faîtes avancer ou reculer votre glaçon ou celui des autres! </p>
 					
-						<img class="carte carte_mouvement carte_mouvement_1" src="img/+1.jpg"/>
-						<img class="carte carte_mouvement carte_mouvement_2" src="img/+2.jpg"/>
-						<img class="carte carte_mouvement carte_mouvement_3" src="img/+3.jpg"/>
-						<img class="carte carte_mouvement carte_mouvement_4" src="img/+4.jpg"/>
-						<img class="carte carte_mouvement carte_mouvement_5" src="img/+5.jpg"/>
-						<img class="carte carte_mouvement carte_mouvement_6" src="img/-1.jpg"/>
-						<img class="carte carte_mouvement carte_mouvement_7" src="img/-2.jpg"/>
+						<img class="carte carte_mouvement carte_mouvement_1" alt="Carte mouvement Ice3" src="img/+1.jpg"/>
+						<img class="carte carte_mouvement carte_mouvement_2" alt="Carte mouvement Ice3" src="img/+2.jpg"/>
+						<img class="carte carte_mouvement carte_mouvement_3" alt="Carte mouvement Ice3" src="img/+3.jpg"/>
+						<img class="carte carte_mouvement carte_mouvement_4" alt="Carte mouvement Ice3" src="img/+4.jpg"/>
+						<img class="carte carte_mouvement carte_mouvement_5" alt="Carte mouvement Ice3" src="img/+5.jpg"/>
+						<img class="carte carte_mouvement carte_mouvement_6" alt="Carte mouvement Ice3" src="img/-1.jpg"/>
+						<img class="carte carte_mouvement carte_mouvement_7" alt="Carte mouvement Ice3" src="img/-2.jpg"/>
 						
 						<div class="spacer"></div>
 					</section>
@@ -237,7 +216,7 @@
 					<section id="parcours">
 						<h2>Le parcours</h2>
 						<p>Chaque carte que vous jouez vient compléter le parcours!</p>
-						<img class="parcours" src="img/parcours.png"/>
+						<img class="parcours" alt="Parcours de cartes Ice3" src="img/parcours.png"/>
 						
 						<div class="spacer"></div>
 					</section>
@@ -248,16 +227,16 @@
 					<h2>Contenu de la boîte</h2>
 					<p>Ce que vous trouverez à l'intérieur</p>
 					<a class="lien_acheter_jeu_bas_de_page" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4">
-						<img class="image_acheter" src="img/design_boutonacheter.png"/>
-						<img class="image_acheter_txt_cliquez" src="img/design_cliquezici.png"/>
-						<img class="image_acheter_txt_acheter" src="img/design_acheterjeu.png"/>
-						<img class="image_acheter_glacon" src="img/design_glacon_acheter.png"/>
+						<img class="image_acheter" alt="Acheter Ice3" src="img/design_boutonacheter.png"/>
+						<img class="image_acheter_txt_cliquez" alt="Cliquez Ice3" src="img/design_cliquezici.png"/>
+						<img class="image_acheter_txt_acheter" alt="Texte achat Ice3" src="img/design_acheterjeu.png"/>
+						<img class="image_acheter_glacon" alt="Glaçon Ice3" src="img/design_glacon_acheter.png"/>
 					</a>
 					<ul class="contenu_boite">
 						<li class="element_avec_illustration">
-							- 5 supports à glaçon de couleur (gobelet + porte-glaçon)<img class="contenu_gobelet" src="img/gobelet.png"/>x5
+							- 5 supports à glaçon de couleur (gobelet + porte-glaçon)<img class="contenu_gobelet" alt="Gobelet glaçon Ice3" src="img/gobelet.png"/>x5
 						</li>
-						<li>- 2 pipettes de 3ml <img class="contenu_pipette" src="img/pipette.png"/>x2</li>
+						<li>- 2 pipettes de 3ml <img class="contenu_pipette" alt="Pipette Ice3" src="img/pipette.png"/>x2</li>
 						<li>- Une cuillère</li>
 						<li>- 108 cartes dont:</li>
 						<ul class="decomposition_cartes">
@@ -277,7 +256,7 @@
 		</section>
 		
 		<footer>
-			<img class="accroche_footer" src="img/accroche.png"/>
+			<img class="accroche_footer" alt="Ice3, le jeu le plus givré de l'année" src="img/accroche.png"/>
 		</footer>
 
 	</div>

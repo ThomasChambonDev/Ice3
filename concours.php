@@ -58,32 +58,32 @@ if (isset($_POST['mail'])){
 <body>
 
 	<div id="conteneur">
-	
+
 		<div id="header">
-			<img class="logo_haut" src="img/design_logo.png"/>
-			<img class="logo_haut_texte" src="img/texte_jeu_givre.png"/>
+			<img class="logo_haut" alt="Logo Ice3" src="img/design_logo.png"/>
+			<img class="logo_haut_texte" alt="Texte logo Ice3" src="img/texte_jeu_givre.png"/>
 		</div>
 
 		<nav>
 			<a class="nav_jeu" href="index.php">
-				<img class="image_bouton image_bouton_jeu" src="img/bouton_lejeu.png"/>
+				<img class="image_bouton image_bouton_jeu" alt="Jeu Ice3" src="img/bouton_lejeu.png"/>
 			</a>
 			<div class="spacer"></div>
 			<a class="nav_presse" href="presse.html">
-				<img class="image_bouton image_bouton_presse" src="img/bouton_presse.png"/>
+				<img class="image_bouton image_bouton_presse" alt="Presse Ice3" src="img/bouton_presse.png"/>
 			</a>
 			<div class="spacer"></div>
 			<a class="nav_contact" href="contact.html">
-				<img class="image_bouton image_bouton_contact" src="img/bouton_contact.png"/>
+				<img class="image_bouton image_bouton_contact" alt="Contact Ice3" src="img/bouton_contact.png"/>
 			</a>		
 			<div class="spacer"></div>
 			<a class="nav_concours" href="concours.php">
-				<img class="image_bouton image_bouton_concours" src="img/bouton_concours.png"/>
+				<img class="image_bouton image_bouton_concours" alt="Concours Ice3" src="img/bouton_concours.png"/>
 			</a>		
 			<div class="spacer"></div>
-			<a class="nav_jeuflash" href="jeu-ice3.html">
-				<img class="image_bouton image_bouton_jeuflash" src="img/bouton_jeuflash.png"/>
-			</a>			
+			<!--<a class="nav_jeuflash" href="jeu-ice3.html">
+				<img class="image_bouton image_bouton_jeuflash" alt="Jeu flash Ice3" src="img/bouton_jeuflash.png"/>
+			</a>-->		
 			<!--<img class="image_glacons_colles" src="img/design_glaconscolles.png"/>-->
 			<div class="spacer"></div>
 		</nav>
@@ -102,18 +102,18 @@ if (isset($_POST['mail'])){
 		
 		<section id="contenu_haut">			
 			
-			<img class="texte_presentation" src="img/texte_presentation_concours.png"/>
-			<img class="tshirts" src="img/tshirts_givres.png"/>
-			<img class="boite_ice3" src="img/boite_ice3_halo.png"/>
+			<img class="texte_presentation" alt="Concours Ice3" src="img/texte_presentation_concours.png"/>
+			<img class="tshirts" alt="T-shirts givrés" src="img/tshirts_givres.png"/>
+			<img class="boite_ice3" alt="Boîte Ice3" src="img/boite_ice3_halo.png"/>
 			
 			<?php 
 				if (isset($mail) && (!$erreur)) echo "<p class='erreur_mail'>Votre participation a bien été enregistrée</p>";
 				else{
 			?>
-				<img class="texte_participation" src="img/texte_participation.png"/>
-				<img class="glacon_citron" src="img/design_glacon_citron.png"/>
+				<img class="texte_participation" alt="Concours Ice3" src="img/texte_participation.png"/>
+				<img class="glacon_citron" alt="Glaçon citron Ice3" src="img/design_glacon_citron.png"/>
 
-				<img class="glacons_colles" src="img/glacons_colles.png"/>
+				<img class="glacons_colles" alt="Glaçons collés Ice3" src="img/glacons_colles.png"/>
 				
 				
 				<form name="concours" action="concours.php" method="POST">
