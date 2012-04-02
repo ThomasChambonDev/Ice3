@@ -133,7 +133,7 @@ img{
 .logo_haut{
 	display: block;
 	width: 20%;
-	margin: 0 auto -4%;
+	margin: 0 auto -3.5%;
 }
 
 /************** Navigation *****************/
@@ -156,61 +156,25 @@ nav a{
 	width: 90%;
 }
 .nav_presse{
-	margin-top: 0%;
+	margin-top: -2%;
 	margin-left: -6.5%;
 	width: 90%;
 }
 .nav_contact{
-	margin-top: 6%;
+	margin-top: 0;
 	margin-left: -4.5%;
 	width: 90%;
 }
-/*
-.texte_bouton{
-	float: left;
+.nav_concours{
+	margin-top: 0;
+	margin-left: -4.5%;
+	width: 80%;
 }
-.texte_bouton_1a{
-	width: 20%;
-	margin-top: 11.5%;
-	margin-left: -68%;
+.nav_jeuflash{
+	margin-top: 0;
+	margin-left: -4.5%;
+	width: 80%;
 }
-.texte_bouton_1b{
-	width: 35%;
-	margin-top: 15%;
-	margin-left: -45%;
-}
-.texte_bouton_2a{
-	width: 40%;
-	margin-top: 0%;
-	margin-left: -98%;
-}
-.texte_bouton_2b{
-	width: 35%;
-	margin-top: 23%;
-	margin-left: -70%;
-}
-.texte_bouton_2c{
-	width: 60%;
-	margin-top: 38%;
-	margin-left: -93%;
-}
-.texte_bouton_3{
-	width: 60%;
-	margin-top: 12%;
-	margin-left: -68%;
-}
-*/
-/*
-nav .nav_jeu{
-	background: url(img/design_boutonjeu.png) no-repeat;
-}
-nav .nav_presse{
-	background-image: url(img/design_boutonpresse.png);
-}
-nav .nav_contact{
-	background-image: url(img/design_boutoncontact.png);
-}*/
-
 
 /*************** Bouton achat **************/
 .acheter_jeu{
@@ -249,7 +213,7 @@ nav .nav_contact{
 .image_glacons_colles{
 	width: 60%;
 	margin-left: 20%;
-	margin-top: 21.7%;
+	margin-top: 0%;
 }
 .image_boite{
 	width: 70%;

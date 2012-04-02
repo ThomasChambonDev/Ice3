@@ -3,6 +3,8 @@ error_reporting(E_ALL);
 
 require_once('config/config.php');
 
+$erreur = false;
+
 if (isset($_POST['mail'])){
 
 	$mail = filter_input(INPUT_POST, 'mail', FILTER_VALIDATE_EMAIL); //Sécurisation des entrées
@@ -15,10 +17,7 @@ if (isset($_POST['mail'])){
 		if (!mysql_query($requete)) echo "Erreur, contactez l'administrateur";
 		mysql_close($connexion);
 	}
-	else{
-	
-		echo "Mail incorrect";
-	}
+	else $erreur = true;
 }
 ?>
 
@@ -62,9 +61,9 @@ if (isset($_POST['mail'])){
 	
 		<div id="header">
 			<img class="logo_haut" src="img/design_logo.png"/>
+			<img class="logo_haut_texte" src="img/texte_jeu_givre.png"/>
 		</div>
 
-	
 		<nav>
 			<a class="nav_jeu" href="index.php">
 				<img class="image_bouton image_bouton_jeu" src="img/bouton_lejeu.png"/>
@@ -76,14 +75,21 @@ if (isset($_POST['mail'])){
 			<div class="spacer"></div>
 			<a class="nav_contact" href="contact.html">
 				<img class="image_bouton image_bouton_contact" src="img/bouton_contact.png"/>
-			</a>			
-			<img class="image_glacons_colles" src="img/design_glaconscolles.png"/>
+			</a>		
 			<div class="spacer"></div>
-			
+			<a class="nav_concours" href="concours.php">
+				<img class="image_bouton image_bouton_concours" src="img/bouton_concours.png"/>
+			</a>		
+			<div class="spacer"></div>
+			<a class="nav_jeuflash" href="jeu-ice3.html">
+				<img class="image_bouton image_bouton_jeuflash" src="img/bouton_jeuflash.png"/>
+			</a>			
+			<!--<img class="image_glacons_colles" src="img/design_glaconscolles.png"/>-->
+			<div class="spacer"></div>
 		</nav>
 		
 
-		
+		<!--
 		<div class="acheter_jeu">
 			<a class="lien_acheter_jeu" href="">
 				<img class="image_acheter" src="img/design_boutonacheter.png"/>
@@ -91,22 +97,44 @@ if (isset($_POST['mail'])){
 				<img class="image_acheter_txt_acheter" src="img/design_acheterjeu.png"/>
 				<img class="image_acheter_glacon" src="img/design_glacon_acheter.png"/>
 			</a>
-			<a class="" href="">
-				<img class="image_boite" src="img/boite_ice3_halo.png"/>
-			</a>
-		</div>
+		</div>-->
 
 		
 		<section id="contenu_haut">			
 			
-			<form name="concours" action="concours.php" method="POST">
-				<input type="textarea" name="mail"/>
-				<input type="submit"/>
-			</form>
+			<img class="texte_presentation" src="img/texte_presentation_concours.png"/>
+			<img class="tshirts" src="img/tshirts_givres.png"/>
+			<img class="boite_ice3" src="img/boite_ice3_halo.png"/>
+			
+			<?php 
+				if (isset($mail) && (!$erreur)) echo "<p class='erreur_mail'>Votre participation a bien été enregistrée</p>";
+				else{
+			?>
+				<img class="texte_participation" src="img/texte_participation.png"/>
+				<img class="glacon_citron" src="img/design_glacon_citron.png"/>
+
+				<img class="glacons_colles" src="img/glacons_colles.png"/>
+				
+				
+				<form name="concours" action="concours.php" method="POST">
+					<div class="champ_email">
+						<input class="txtarea_email" type="textarea" name="mail" placeholder="Votre email"/>
+						<div class="spacer"></div>
+					</div>
+					
+					<?php if ($erreur) echo "<p class='erreur_mail'>L'adresse mail entrée est incorrecte</p>";?>
+
+					<input class="btn_validation blue" type="submit" value="Participer"/>
+				</form>
+			<?php
+				}
+			?>
+			
+			<div class="spacer"></div>
 		</section>
 		
 		<footer>
-			<img class="accroche_footer" src="img/accroche.png"/>
+			
 		</footer>
 
 	</div>

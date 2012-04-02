@@ -49,16 +49,23 @@
 			<div class="spacer"></div>
 			<a class="nav_contact" href="contact.html">
 				<img class="image_bouton image_bouton_contact" src="img/bouton_contact.png"/>
-			</a>			
-			<img class="image_glacons_colles" src="img/design_glaconscolles.png"/>
+			</a>		
 			<div class="spacer"></div>
-			
+			<a class="nav_concours" href="concours.php">
+				<img class="image_bouton image_bouton_concours" src="img/bouton_concours.png"/>
+			</a>		
+			<div class="spacer"></div>
+			<a class="nav_jeuflash" href="jeu-ice3.html">
+				<img class="image_bouton image_bouton_jeuflash" src="img/bouton_jeuflash.png"/>
+			</a>			
+			<!--<img class="image_glacons_colles" src="img/design_glaconscolles.png"/>-->
+			<div class="spacer"></div>
 		</nav>
 		
 
 		
 		<div class="acheter_jeu">
-			<a class="lien_acheter_jeu" href="">
+			<a class="lien_acheter_jeu" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4">
 				<img class="image_acheter" src="img/design_boutonacheter.png"/>
 				<img class="image_acheter_txt_cliquez" src="img/design_cliquezici.png"/>
 				<img class="image_acheter_txt_acheter" src="img/design_acheterjeu.png"/>
@@ -240,7 +247,7 @@
 
 					<h2>Contenu de la boîte</h2>
 					<p>Ce que vous trouverez à l'intérieur</p>
-					<a class="lien_acheter_jeu_bas_de_page" href="">
+					<a class="lien_acheter_jeu_bas_de_page" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4">
 						<img class="image_acheter" src="img/design_boutonacheter.png"/>
 						<img class="image_acheter_txt_cliquez" src="img/design_cliquezici.png"/>
 						<img class="image_acheter_txt_acheter" src="img/design_acheterjeu.png"/>

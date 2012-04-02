@@ -1,0 +1,145 @@
+/************ Media queries ***********/
+@media screen and (min-width: 800px){
+	.champ_email{
+		margin-left: 29%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 800px){
+	.champ_email{
+		margin-left: 0;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 600px){
+	.champ_email{
+		margin-left: 5%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.champ_email{
+		margin-left: 0;
+	}
+}
+
+
+
+
+/************ Style par défaut ********/
+#contenu_haut{
+	padding-left: 20%;
+	padding-right: 10%;
+	width: 70%;
+}
+
+.logo_haut_texte{
+	display: block;
+	position: relative;
+	width: 20%;
+	margin: 3% auto -7.3%;
+}
+
+.texte_presentation{
+	margin-top: 10%;
+	width: 110%;
+}
+.tshirts{
+	margin-top: 3%;
+	margin-left: 10%;
+	width: 32%;
+}
+.boite_ice3{
+	margin-left: 15%;
+	width: 25%;
+}
+.texte_participation{
+	margin-left: 25%;
+	margin-right:25%;
+	margin-top: 2%;
+	width: 50%;
+}
+.glacon_citron{
+	float: left;
+	margin-left: 7%;
+	margin-top: -15%;
+	width: 17%;
+}
+/*
+.saisie{
+	width: 35%;
+	margin-left: 33%;
+	margin-bottom: 10%;
+}*/
+.glacons_colles{
+	float: right;
+	margin-right: 0;
+	margin-top: -20%;
+	width: 17%;
+}
+
+.champ_email{
+	background: url(img/design_glacon_saisie.png);
+	width: 42%;
+	min-width: 320px;
+	height: 73px;
+}
+.txtarea_email{
+	margin-left: 15%;
+	margin-top: 6.6%;
+	height: 22px;
+	width: 60%;
+}
+
+.erreur_mail{
+	font-size: 1.8em;
+	font-weight: 600;
+	color: #E65932;
+	margin-left: 13%;
+}
+.btn_validation{
+	width: 17%;
+	min-width: 125px;
+	height: 60px;
+	margin-left: 40%;
+	border-radius: 10px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	/*border: none;*/
+	position: relative;
+	cursor: pointer;
+	display: inline-block; 
+	text-decoration:none;
+	font-size: 1.5em;
+	color: #fff;
+	font-weight: 600;
+}
+.blue, .blue:visited		{ background-color: #2daebf; }
+	.blue:hover							{ background-color: #007d9a; }
+.orange, .orange:visited		{ background-color: #ff5c00; }
+.orange:hover							{ background-color: #d45500; }
+.yellow, .yellow:visited		{ background-color: #F9F023; }
+	.yellow:hover							{ background-color: #fc9200; }
+	/*
+.jaune {
+	color: #FFFFFF;
+	border: solid 1px #F3E512;
+	background: #F3E512;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F5EE24), to(#F3E512));
+	background: -moz-linear-gradient(top,  #F5EE24,  #F3E512);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5EE24', endColorstr='#F3E512');
+}
+.jaune:hover {
+	background: #F3E512;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F5EE24), to(#F3E512));
+	background: -moz-linear-gradient(top,  #F5EE24,  #F3E512);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5EE24', endColorstr='#F3E512');
+}
+.jaune:active {
+	color: #F3E512;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F5EE24), to(#F3E512));
+	background: -moz-linear-gradient(top,  #F5EE24,  #F3E512);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5EE24', endColorstr='#F3E512');
+}*/
