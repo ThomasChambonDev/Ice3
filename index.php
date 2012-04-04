@@ -24,18 +24,28 @@
 		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
-
 	</script>
 
 </head>
 
 <body>
+	<!-- SDK Facebook -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- Fin SDK Facebook -->
 
 	<a href="http://www.mywittygames.com" target="_blank"><img class="pastille_edinautes" alt="Ice3 a été édité par 436 édinautes" src="img/Pastille436Edinautes.png"/></a>
-	<!--<img class="coup_de_coeur_fnac" alt="Ice3 est coup de coeur fnac" src="img/coup_de_coeur_fnac.png"/>-->
 	<a href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4"><img class="coup_de_coeur_fnac" alt="Ice3 est sélectionnée par la fnac" src="img/coup_de_coeur_logo_fnac.test5.png"/></a>
-	<!--<img class="logo_fnac" alt="Ice3 est sélectionnée par la fnac" src="img/logo_fnac.png"/>
-	<img class="logo_fnac_com" alt="Ice3 est sélectionnée par la fnac" src="img/logo_fnac_com.gif"/>-->
+	<div class="likebox">
+		<div class="fb-like-box" data-href="http://www.facebook.com/pages/Le-jeu-le-plus-givr%C3%A9-de-lann%C3%A9e/219069664799259" data-width="292" data-show-faces="true" data-stream="false" data-header="true"></div>
+	</div>
+	<a href="concours.php"><img class="medaillon_concours" alt="Le concours givré" src="img/medaillon_concours.png"/></a>
 	
 	<div id="conteneur">
 	
@@ -59,7 +69,7 @@
 			<div class="spacer"></div>
 			<a class="nav_concours" href="concours.php">
 				<img class="image_bouton image_bouton_concours" alt="Concours Ice3" src="img/bouton_concours.png"/>
-			</a>		
+			</a>
 			<div class="spacer"></div>
 			<!--<a class="nav_jeuflash" href="jeu-ice3.html">
 				<img class="image_bouton image_bouton_jeuflash" alt="Jeu flash Ice3" src="img/bouton_jeuflash.png"/>
