@@ -30,7 +30,7 @@
 </head>
 
 <body>
-
+<p>test</p>
 	<a href="http://www.mywittygames.com" target="_blank"><img class="pastille_edinautes" alt="Ice3 a été édité par 436 édinautes" src="img/Pastille436Edinautes.png"/></a>
 	<!--<img class="coup_de_coeur_fnac" alt="Ice3 est coup de coeur fnac" src="img/coup_de_coeur_fnac.png"/>-->
 	<a href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4"><img class="coup_de_coeur_fnac" alt="Ice3 est sélectionnée par la fnac" src="img/coup_de_coeur_logo_fnac.test5.png"/></a>
