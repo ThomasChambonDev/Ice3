@@ -31,7 +31,11 @@
 
 <body>
 
-	<img class="pastille_edinautes" alt="Ice3 a été édité par 436 édinautes" src="img/Pastille436Edinautes.png"/>
+	<a href="http://www.mywittygames.com" target="_blank"><img class="pastille_edinautes" alt="Ice3 a été édité par 436 édinautes" src="img/Pastille436Edinautes.png"/></a>
+	<!--<img class="coup_de_coeur_fnac" alt="Ice3 est coup de coeur fnac" src="img/coup_de_coeur_fnac.png"/>-->
+	<a href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4"><img class="coup_de_coeur_fnac" alt="Ice3 est sélectionnée par la fnac" src="img/coup_de_coeur_logo_fnac.test5.png"/></a>
+	<!--<img class="logo_fnac" alt="Ice3 est sélectionnée par la fnac" src="img/logo_fnac.png"/>
+	<img class="logo_fnac_com" alt="Ice3 est sélectionnée par la fnac" src="img/logo_fnac_com.gif"/>-->
 	
 	<div id="conteneur">
 	
@@ -73,7 +77,7 @@
 				<img class="image_acheter_txt_acheter" alt="Texte achat Ice3" src="img/design_acheterjeu.png"/>
 				<img class="image_acheter_glacon" alt="Glaçons Ice3" src="img/design_glacon_acheter.png"/>
 			</a>
-			<a class="" href="">
+			<a class="" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4">
 				<img class="image_boite" alt="Boîte Ice3" src="img/boite_ice3_halo.png"/>
 			</a>
 		</div>

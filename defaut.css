@@ -142,7 +142,25 @@ img{
 	margin-right: 2%;
 	margin-top: 2%;
 }
+.logo_fnac_com{
+	position: absolute;
+	width: 5%;
+	top: 87%;
+	left: 78%;
+}
 
+.coup_de_coeur_fnac{
+	position: absolute;
+	width: 12%;
+	top: 40%;
+	left: 85%;
+}
+.logo_fnac{
+	position: absolute;
+	width: 6%;
+	top: 60%;
+	left: 85%;
+}
 
 /************** Navigation *****************/
 nav{
