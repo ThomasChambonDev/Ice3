@@ -36,7 +36,8 @@ if (isset($_POST['mail'])){
 	
 <meta charset="UTF-8"/>	
 	
-<title>Ice3: le concours du jeu le plus givré de l'année</title>
+	<title>Ice3: le concours du jeu le plus givré de l'année</title>
+	<link rel="icon" type="image/png" href="img/design_glacon_acheter_ico.png" />
 
 	<script type="text/javascript">
 
@@ -50,7 +51,6 @@ if (isset($_POST['mail'])){
 		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
-
 	</script>
 
 </head>
@@ -62,17 +62,36 @@ if (isset($_POST['mail'])){
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;
 	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+	  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<!-- Fin SDK Facebook -->
 
-	<a href="http://www.mywittygames.com" target="_blank"><img class="pastille_edinautes" alt="Ice3 a été édité par 436 édinautes" src="img/Pastille436Edinautes.png"/></a>
-	<a href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4"><img class="coup_de_coeur_fnac" alt="Ice3 est sélectionnée par la fnac" src="img/coup_de_coeur_logo_fnac.test5.png"/></a>
-	<div class="likebox">
-		<div class="fb-like-box" data-href="http://www.facebook.com/pages/Le-jeu-le-plus-givr%C3%A9-de-lann%C3%A9e/219069664799259" data-width="292" data-show-faces="true" data-stream="false" data-header="true"></div>
-	</div>
-	<a href="concours.php"><img class="medaillon_concours" alt="Le concours givré" src="img/medaillon_concours.png"/></a>
+	
+	<!--<a href="concours.php"><img class="medaillon_concours" alt="Le concours givré" src="img/medaillon_concours.png"/></a>-->
+	<section id="cadre_droite">
+			
+		<a href="http://www.mywittygames.com" target="_blank"><img class="pastille_edinautes" alt="Ice3 a été édité par 436 édinautes" src="img/Pastille436Edinautes.png"/></a>
+		<a href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4"><img class="coup_de_coeur_fnac" alt="Ice3 est sélectionnée par la fnac" src="img/coup_de_coeur_logo_fnac.test5.png"/></a>
+			
+		<div id="bloc_social">
+			<!-- AddThis Button BEGIN -->
+			<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+			<a class="addthis_button_preferred_1"></a>
+			<a class="addthis_button_preferred_2"></a>
+			<a class="addthis_button_preferred_3"></a>
+			<a class="addthis_button_preferred_4"></a>
+			<a class="addthis_button_compact"></a>
+			<a class="addthis_counter addthis_bubble_style"></a>
+			</div>
+			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f7d6b3d4ad016ff"></script>
+			<!-- AddThis Button END -->
+
+			<div class="likebox">
+				<div class="fb-like-box" data-href="http://www.facebook.com/pages/Le-jeu-le-plus-givr%C3%A9-de-lann%C3%A9e/219069664799259" data-width="292" data-show-faces="true" data-stream="false" data-header="true"></div>
+			</div>
+		</div>
+	</section>
 
 	
 	<div id="conteneur">

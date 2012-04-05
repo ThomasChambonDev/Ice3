@@ -255,12 +255,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a626a', end
 /************** Les attaques ***************/
 
 .attaque{
-	width: 100%;
+	width: 50%;
 	margin-bottom: 5%;
+	float: left;
 }
 
+.attaque .carte{
+	width: 44%;
+}
 .attaque_olivier{
-	width: 25%;
+	width: 50%;
 }
 
 .attaque_carte{
@@ -382,13 +386,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a626a', end
 
 /*************** Contenu de la boîte *******************/
 .contenu_boite{
-	font-size: 1.2em;
+	font-size: 1em;
 }
-.contenu_boite li{
+.contenu_boite li p{
 	margin-bottom: 1%;
 }
 .decomposition_cartes{
 	margin-left: 3%;
+}
+.decomposition_cartes li p{
+	margin-bottom: 1%;
 }
 
 .contenu_gobelet{

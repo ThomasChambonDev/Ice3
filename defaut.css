@@ -62,17 +62,31 @@ table {
 	#conteneur{
 		width: 61.8%;/*61.8%;*/
 	}
+	
+	#cadre_droite{
+		float: right;
+		width: 19%;
+	}
 }
 
 @media screen and (max-width: 1024px){
 	#conteneur{
 		width: 80%;
 	}
+	
+	#cadre_droite{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 480px){
 	#conteneur{
 		width: 95%;
+	}
+	
+		
+	#cadre_droite{
+		display: none;
 	}
 }
 
@@ -121,6 +135,17 @@ p{
 img{
 	/*max-width: 100%;*/
 }
+
+a{
+	font-size: 1em;
+	font-family: Verdana, sans-serif;
+	color: #97AFBB;
+}
+
+/************ Cadre droite *************/
+
+
+
 /************ header ***************/
 /*
 #header{
@@ -137,46 +162,36 @@ img{
 }
 
 .pastille_edinautes{
-	float: right;
-	width: 15%;
-	margin-right: 2%;
+	/*float: right;*/
+	width: 80%;
+	margin-left: 5%;
 	margin-top: 2%;
+	margin-bottom: 5%;
 }
-.logo_fnac_com{
-	position: absolute;
-	width: 5%;
-	top: 87%;
-	left: 78%;
-}
-
 .coup_de_coeur_fnac{
-	position: absolute;
-	width: 12%;
-	top: 40%;
-	left: 85%;
+	width: 50%;
+	margin-left: 15%;
+	margin-bottom: 5%;
 }
-.logo_fnac{
-	position: absolute;
-	width: 6%;
-	top: 60%;
-	left: 85%;
+#bloc_social{
+	margin-left: 13%;
+	width: 86.5%;
+}
+.addthis_toolbox{
+	margin-bottom: 1%;
 }
 .likebox{
-	position: absolute;
-	/*top: 65.6%;
-	left: 83.5%;*/
-	top: 90%;
-	right: 0%;
-	/*left: 81.5%;	*/
 	background-color: white;
 }
+.fb-like-box{
+	background-color: white;
+	width: 80%;
+}
+
+
 .medaillon_concours{
 	position: absolute;
 	width: 10%;
-	/*top: 70%;
-	left: 80%;*/
-	/*top: 60%;
-	left: 18%;*//*15%;*/
 	top: 9%;
 	left: 5%;
 }
