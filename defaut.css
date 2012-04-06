@@ -156,7 +156,6 @@ body{
 	-o-background-size: 120%; /* pour Opera */
 	background-size: 120%; /* version standardisée */
 	background-color: #CCE8F4;*
-
 }
 
 h1{
@@ -197,7 +196,7 @@ a{
 	
 	border-left: 1px solid #EEEEEE;
     border-radius: 4px 4px 4px 4px;
-    height: 280px;
+    height: 275px;
     padding: 5px 5px 1px;
     position: fixed;
     left: 0;
@@ -228,6 +227,9 @@ a{
 }
 
 
+.fb_iframe_widget{
+	margin-bottom: 20%;
+}
 
 /************ header ***************/
 /*
