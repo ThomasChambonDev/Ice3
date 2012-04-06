@@ -70,8 +70,7 @@ if (isset($_POST['mail'])){
 	
 	<section id="outils_partage">
 		<script type="text/javascript" src="https://apis.google.com/js/plusone.js">  {lang: 'fr'}</script>
-		<fb:like href="http://www.facebook.com/pages/Le-jeu-le-plus-givr%C3%A9-de-lann%C3%A9e/219069664799259" send="false" layout="box_count" width="450" show_faces="false" font="verdana"></fb:like>
-		<br /><br />
+		<fb:like href="http://www.facebook.com/pages/Le-jeu-le-plus-givr%C3%A9-de-lann%C3%A9e/219069664799259" send="false" layout="box_count" width="75" show_faces="false" font="verdana"></fb:like>
 		<g:plusone size="tall"></g:plusone>
 		<br /><br />
 		<a class="addthis_counter"></a>
@@ -108,7 +107,7 @@ if (isset($_POST['mail'])){
 		<div id="bloc_social">
 
 			<div class="likebox">
-				<div id="test" class="fb-like-box" data-href="http://www.facebook.com/pages/Le-jeu-le-plus-givr%C3%A9-de-lann%C3%A9e/219069664799259" data-width="235" data-height="500" data-show-faces="true" data-stream="false" data-header="true"></div>
+				<div id="test" class="fb-like-box" data-href="http://www.facebook.com/pages/Le-jeu-le-plus-givr%C3%A9-de-lann%C3%A9e/219069664799259" data-width="240" data-height="500" data-show-faces="true" data-stream="false" data-header="true"></div>
 			</div>
 		</div>
 	</section>
