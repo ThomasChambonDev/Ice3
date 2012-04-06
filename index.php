@@ -45,7 +45,7 @@
 	<section id="outils_partage">
 		<script type="text/javascript" src="https://apis.google.com/js/plusone.js">  {lang: 'fr'}</script>
 		<fb:like href="http://www.facebook.com/pages/Le-jeu-le-plus-givr%C3%A9-de-lann%C3%A9e/219069664799259" send="false" layout="box_count" width="450" show_faces="false" font="verdana"></fb:like>
-		<br />
+		<br /><br />
 		<g:plusone size="tall"></g:plusone>
 		<br /><br />
 		<a class="addthis_counter"></a>
