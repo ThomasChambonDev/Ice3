@@ -42,6 +42,37 @@
 	<!-- Fin SDK Facebook -->
 
 	
+	<section id="outils_partage">
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js">  {lang: 'fr'}</script>
+		<fb:like href="http://www.facebook.com/pages/Le-jeu-le-plus-givr%C3%A9-de-lann%C3%A9e/219069664799259" send="false" layout="box_count" width="450" show_faces="false" font="verdana"></fb:like>
+		<br />
+		<g:plusone size="tall"></g:plusone>
+		<br /><br />
+		<a class="addthis_counter"></a>
+		<br />
+		<script type="text/javascript">
+				var addthis_config = {
+					 ui_language: "fr",
+					 data_ga_property: 'UA-17906341-2',
+					 "data_track_clickback":true
+																	 
+				};
+		</script>
+		<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f7d6b3d4ad016ff"></script>
+
+		<table width="50" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td  height="20" width="50%" align="left"><a title="Envoyer par E-mail" class="addthis_button_email"></a> </td>
+				<td width="50%" align="right"><a title="Imprimer" class="addthis_button_print"></a></td>
+			</tr>
+			<tr>
+				<td height="20" align="left"><a title="Convertir au format PDF" class="addthis_button_pdfonline"></a> </td>
+				<td align="right"><a title="Ajouter au favoris" class="addthis_button_favorites"></a></td>
+			</tr>
+		</table>
+	</section>
+	
+	
 	<!--<a href="concours.php"><img class="medaillon_concours" alt="Le concours givré" src="img/medaillon_concours.png"/></a>-->
 	<section id="cadre_droite">
 			
@@ -49,17 +80,6 @@
 		<a href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4"><img class="coup_de_coeur_fnac" alt="Ice3 est sélectionnée par la fnac" src="img/coup_de_coeur_logo_fnac.test5.png"/></a>
 			
 		<div id="bloc_social">
-			<!-- AddThis Button BEGIN -->
-			<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-			<a class="addthis_button_preferred_1"></a>
-			<a class="addthis_button_preferred_2"></a>
-			<a class="addthis_button_preferred_3"></a>
-			<a class="addthis_button_preferred_4"></a>
-			<a class="addthis_button_compact"></a>
-			<a class="addthis_counter addthis_bubble_style"></a>
-			</div>
-			<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f7d6b3d4ad016ff"></script>
-			<!-- AddThis Button END -->
 
 			<div class="likebox">
 				<div class="fb-like-box" data-href="http://www.facebook.com/pages/Le-jeu-le-plus-givr%C3%A9-de-lann%C3%A9e/219069664799259" data-width="292" data-show-faces="true" data-stream="false" data-header="true"></div>
@@ -105,9 +125,6 @@
 		<div class="acheter_jeu">
 			<a class="lien_acheter_jeu" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4">
 				<img class="image_acheter" alt="Acheter Ice3" src="img/design_boutonacheter.png"/>
-				<img class="image_acheter_txt_cliquez" alt="Cliquez Ice3" src="img/design_cliquezici.png"/>
-				<img class="image_acheter_txt_acheter" alt="Texte achat Ice3" src="img/design_acheterjeu.png"/>
-				<img class="image_acheter_glacon" alt="Glaçons Ice3" src="img/design_glacon_acheter.png"/>
 			</a>
 			<a class="" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4">
 				<img class="image_boite" alt="Boîte Ice3" src="img/boite_ice3_halo.png"/>
@@ -267,9 +284,6 @@
 					<p>Ce que vous trouverez à l'intérieur</p>
 					<a class="lien_acheter_jeu_bas_de_page" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4">
 						<img class="image_acheter" alt="Acheter Ice3" src="img/design_boutonacheter.png"/>
-						<img class="image_acheter_txt_cliquez" alt="Cliquez Ice3" src="img/design_cliquezici.png"/>
-						<img class="image_acheter_txt_acheter" alt="Texte achat Ice3" src="img/design_acheterjeu.png"/>
-						<img class="image_acheter_glacon" alt="Glaçon Ice3" src="img/design_glacon_acheter.png"/>
 					</a>
 					<ul class="contenu_boite">
 						<li>
@@ -302,6 +316,9 @@
 		
 		<footer>
 			<img class="accroche_footer" alt="Ice3, le jeu le plus givré de l'année" src="img/accroche.png"/>
+				<!--<img class="image_acheter_txt_cliquez" alt="Cliquez Ice3" src="img/design_cliquezici.png"/>
+				<img class="image_acheter_txt_acheter" alt="Texte achat Ice3" src="img/design_acheterjeu.png"/>
+				<img class="image_acheter_glacon" alt="Glaçons Ice3" src="img/design_glacon_acheter.png"/>-->
 		</footer>
 
 	</div>

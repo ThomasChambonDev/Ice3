@@ -58,7 +58,7 @@ table {
 
 /*************** Media queries *****************/
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1024px){
 	#conteneur{
 		width: 61.8%;/*61.8%;*/
 	}
@@ -69,13 +69,40 @@ table {
 	}
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 800px) and (max-width: 1024px){
 	#conteneur{
 		width: 80%;
 	}
 	
 	#cadre_droite{
 		display: none;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 800px){
+	#conteneur{
+		width: 80%;
+	}
+	
+	#cadre_droite{
+		display: none;
+	}
+	
+	#outils_partage{
+		display:none;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px){
+	#conteneur{
+		width: 90%;
+	}
+	
+	#cadre_droite{
+		display: none;
+	}
+	
+	#outils_partage{
+		display:none;
 	}
 }
 
@@ -88,7 +115,12 @@ table {
 	#cadre_droite{
 		display: none;
 	}
+	
+	#outils_partage{
+		display:none;
+	}
 }
+
 
 
 
@@ -146,6 +178,43 @@ a{
 
 
 
+/************ Social ***************/
+#outils_partage{
+	
+	border-left: 1px solid #EEEEEE;
+    border-radius: 4px 4px 4px 4px;
+    height: 280px;
+    padding: 5px 5px 1px;
+    position: fixed;
+    left: 0;
+    top: 21%;
+    width: 65px;
+	background-color: rgba(33, 99, 109, 0.6);
+}
+
+
+#bloc_social{
+	margin-left: 13%;
+	width: 86.5%;
+}
+/*
+.liketext{
+	width: 30%;
+}
+.addthis_toolbox{
+	margin-bottom: 1%;
+}*/
+.likebox{
+	background-color: white;
+}
+/*
+.fb-like-box{
+	background-color: white;
+	width: 80%;
+}*/
+
+
+
 /************ header ***************/
 /*
 #header{
@@ -171,23 +240,8 @@ a{
 .coup_de_coeur_fnac{
 	width: 50%;
 	margin-left: 15%;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 }
-#bloc_social{
-	margin-left: 13%;
-	width: 86.5%;
-}
-.addthis_toolbox{
-	margin-bottom: 1%;
-}
-.likebox{
-	background-color: white;
-}
-.fb-like-box{
-	background-color: white;
-	width: 80%;
-}
-
 
 .medaillon_concours{
 	position: absolute;
@@ -245,11 +299,15 @@ nav a{
 .lien_acheter_jeu{
 	float: right;
 	width: 100%;
+	margin-right: -4%;
 }
 
 .image_acheter{
 	float: right;
-	width: 90%;
+	width: 100%;
+}
+.image_acheter:hover{
+	opacity: 0.90;
 }
 
 .image_acheter_txt_cliquez{
