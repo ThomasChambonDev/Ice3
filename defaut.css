@@ -58,7 +58,7 @@ table {
 
 /*************** Media queries *****************/
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1150px){
 	#conteneur{
 		width: 61.8%;/*61.8%;*/
 	}
@@ -66,6 +66,20 @@ table {
 	#cadre_droite{
 		float: right;
 		width: 19%;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1150px){
+	#conteneur{
+		width: 61.8%;/*61.8%;*/
+	}
+	
+	#cadre_droite{
+		float: right;
+		width: 19%;
+	}
+	
+	.likebox{
+		display:none;
 	}
 }
 
@@ -203,15 +217,15 @@ a{
 }
 .addthis_toolbox{
 	margin-bottom: 1%;
-}*/
+}*//*
 .likebox{
 	background-color: white;
 }
-/*
+*/
 .fb-like-box{
 	background-color: white;
-	width: 80%;
-}*/
+	float:right;
+}
 
 
 
