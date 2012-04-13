@@ -385,6 +385,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a626a', end
 
 
 /*************** Contenu de la boîte *******************/
+#contenu_boite{
+	margin-bottom: 5%;
+}
+
 .contenu_boite{
 	font-size: 1em;
 }
@@ -416,6 +420,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a626a', end
 	margin-top : -5%;
 	width: 25%;
 }
+
+/************* Règles *********************/
+#telecharger_regles{
+	margin-bottom: 5%;
+}
+
 
 /************* Footer *********************/
 footer{

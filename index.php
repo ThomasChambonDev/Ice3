@@ -309,6 +309,12 @@
 					
 				</section>
 				
+				<section id="telecharger_regles">
+
+					<h2>Télécharger les règles</h2>
+					<p class="dossier_presse">Télécharger les règles complètes: <a class="lien_regles" href="contenu/regles-ice3-impression.pdf" target="_blank">cliquez ici</a></p>
+					
+				</section>			
 			</section>
 
 		</section>
