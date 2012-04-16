@@ -254,7 +254,7 @@
 								<param name="salign" value="" />
 								<param name="allowScriptAccess" value="sameDomain" />
 								<!--[if !IE]>-->
-								<object type="application/x-shockwave-flash" data="img/tuto_ice3.swf" width="600" height="600">
+								<object type="application/x-shockwave-flash" data="contenu/tuto_ice3.swf" width="600" height="600">
 									<param name="movie" value="wice3-2012_03_21.swf" />
 									<param name="quality" value="high" />
 									<param name="bgcolor" value="#999999" />
