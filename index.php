@@ -59,7 +59,7 @@
 		</script>
 		<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f7d6b3d4ad016ff"></script>
 
-		<table width="50" border="0" cellspacing="0" cellpadding="0">
+		<table>
 			<tr>
 				<td height="20" width="50%" align="left"><a title="Envoyer par E-mail" class="addthis_button_email"></a> </td>
 				<td width="50%" align="right"><a title="Imprimer" class="addthis_button_print"></a></td>
@@ -321,9 +321,6 @@
 		
 		<footer>
 			<img class="accroche_footer" alt="Ice3, le jeu le plus givré de l'année" src="img/accroche.png"/>
-				<!--<img class="image_acheter_txt_cliquez" alt="Cliquez Ice3" src="img/design_cliquezici.png"/>
-				<img class="image_acheter_txt_acheter" alt="Texte achat Ice3" src="img/design_acheterjeu.png"/>
-				<img class="image_acheter_glacon" alt="Glaçons Ice3" src="img/design_glacon_acheter.png"/>-->
 		</footer>
 
 	</div>
