@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 
@@ -150,7 +150,7 @@
 
 					<section id="but_du_jeu">
 						<h2>Comment jouer au jeu le plus givré de l'année:</h2>
-						
+						<br/>
 						<p>Amenez votre glaçon à la fin du parcours givré!</p>
 
 						<div class="cartes_extremes">
@@ -174,6 +174,7 @@
 					
 					<section id="attaques">
 						<h2>Les attaques en images</h2>
+						<br/>
 						<p>Chaque attaque va réduire la taille de votre glaçon! Evitez-les à tout prix!</p>
 						
 						<div class="attaque">
@@ -210,9 +211,10 @@
 					</section>
 						
 					<section id="cartes_mouvements">
-					
+						
 						<h2>Les cartes de mouvement</h2>
-					
+
+						<br/>
 						<p>Faîtes avancer ou reculer votre glaçon ou celui des autres! </p>
 					
 						<img class="carte carte_mouvement carte_mouvement_1" alt="Carte mouvement Ice3" src="img/+1.jpg"/>
@@ -231,6 +233,8 @@
 					
 					<section id="parcours">
 						<h2>Le parcours</h2>
+						
+						<br/>
 						<p>Chaque carte que vous jouez vient compléter le parcours!</p>
 						<img class="parcours" alt="Parcours de cartes Ice3" src="img/parcours.png"/>
 						
@@ -240,6 +244,7 @@
 
 					<section id="flashContent" class="tutoriel">
 						<h2>Le tutoriel !</h2>
+						<br/>
 						<p>L'explication des règles</p>
 					
 						<div id="tuto_container">
@@ -282,6 +287,8 @@
 				<section id="contenu_boite">
 
 					<h2>Contenu de la boîte</h2>
+					
+					<br/>
 					<p>Ce que vous trouverez à l'intérieur</p>
 					<a class="lien_acheter_jeu_bas_de_page" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
 						<img class="image_acheter" alt="Acheter Ice3" src="img/design_boutonacheter.png"/>
@@ -314,9 +321,26 @@
 				<section id="telecharger_regles">
 
 					<h2>Télécharger les règles</h2>
+					
+					<br/>
 					<p class="dossier_presse">Télécharger les règles complètes: <a class="lien_regles" href="contenu/regles-ice3-impression.pdf" target="_blank">cliquez ici</a></p>
 					
-				</section>			
+				</section>
+				
+				<section id="lien_mwg">
+
+					<h2>My Witty Games</h2>
+					
+					<br/>
+					<p>
+						Ice<span>3</span> a été édité grâce au soutien de 436 édinautes. 
+						<br/>
+						Pour découvrir l'envers du décor de l'édition participative, rendez-vous sur <a href="http://www.mywittygames.com">www.mywittygames.com</a>
+					</p>
+					<br/>
+					<br/>
+				
+				</section>		
 			</section>
 
 		</section>
