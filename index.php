@@ -126,7 +126,7 @@
 		
 		<div class="acheter_jeu">
 			<!--<a class="lien_acheter_jeu" href="http://www.amazon.fr/Witty-Editions-WIT04-Soci%C3%A9t%C3%A9-ICE3/dp/B007TFD3JE" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">-->
-			<a class="lien_acheter_jeu" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
+			<a class="lien_acheter_jeu" href="http://www.labonneambiance.com/4-ice3" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
 				<img class="image_acheter" alt="Acheter Ice3" src="img/design_boutonacheter.png"/>
 			</a>
 			<a class="" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
@@ -292,7 +292,7 @@
 					
 					<br/>
 					<p>Ce que vous trouverez à l'intérieur</p>
-					<a class="lien_acheter_jeu_bas_de_page" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
+					<a class="lien_acheter_jeu_bas_de_page" href="http://www.labonneambiance.com/4-ice3" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
 						<img class="image_acheter" alt="Acheter Ice3" src="img/design_boutonacheter.png"/>
 					</a>
 					<ul class="contenu_boite">
