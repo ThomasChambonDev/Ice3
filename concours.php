@@ -102,7 +102,7 @@ if (isset($_POST['mail'])){
 	<section id="cadre_droite">
 			
 		<a href="http://www.mywittygames.com" target="_blank"><img class="pastille_edinautes" alt="Ice3 a été édité par 436 édinautes" src="img/Pastille436Edinautes.png"/></a>
-		<a href="http://www.amazon.fr/Witty-Editions-WIT04-Soci%C3%A9t%C3%A9-ICE3/dp/B007TFD3JE" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
+		<a href="http://www.labonneambiance.com/jeux-de-societe/4-ice3.html" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
 			<img class="medaille_or_lepine" alt="Ice3 est sélectionné par la fnac" src="img/medaille_lepine_ice3.png"/>
 		</a>
 		

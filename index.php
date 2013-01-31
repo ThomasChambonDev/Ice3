@@ -77,7 +77,8 @@
 			
 		<a href="http://www.mywittygames.com" target="_blank"><img class="pastille_edinautes" alt="Ice3 a été édité par 436 édinautes" src="img/Pastille436Edinautes.png"/></a>
 		<!-- <a href="http://www.amazon.fr/Witty-Editions-WIT04-Soci%C3%A9t%C3%A9-ICE3/dp/B007TFD3JE" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])"> -->
-		<a href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
+		<!--<a href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">-->
+		<a href="http://www.labonneambiance.com/jeux-de-societe/4-ice3.html" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
 			<img class="medaille_or_lepine" alt="Ice3 est sélectionné par la fnac" src="img/medaille_lepine_ice3.png"/>
 		</a>
 			
@@ -126,10 +127,10 @@
 		
 		<div class="acheter_jeu">
 			<!--<a class="lien_acheter_jeu" href="http://www.amazon.fr/Witty-Editions-WIT04-Soci%C3%A9t%C3%A9-ICE3/dp/B007TFD3JE" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">-->
-			<a class="lien_acheter_jeu" href="http://www.labonneambiance.com/4-ice3" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
+			<a class="lien_acheter_jeu" href="http://www.labonneambiance.com/jeux-de-societe/4-ice3.html" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
 				<img class="image_acheter" alt="Acheter Ice3" src="img/design_boutonacheter.png"/>
 			</a>
-			<a class="" href="http://www4.fnac.com/Witty-Ice-3/a4107357/w-4" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
+			<a class="" href="http://www.labonneambiance.com/jeux-de-societe/4-ice3.html" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
 				<img class="image_boite" alt="Boîte Ice3" src="img/boite_ice3_halo.png"/>
 			</a>
 		</div>
@@ -292,7 +293,7 @@
 					
 					<br/>
 					<p>Ce que vous trouverez à l'intérieur</p>
-					<a class="lien_acheter_jeu_bas_de_page" href="http://www.labonneambiance.com/4-ice3" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
+					<a class="lien_acheter_jeu_bas_de_page" href="http://www.labonneambiance.com/jeux-de-societe/4-ice3.html" onclick="_gaq.push(['_trackEvent', 'bouton_acheter', 'clicked'])">
 						<img class="image_acheter" alt="Acheter Ice3" src="img/design_boutonacheter.png"/>
 					</a>
 					<ul class="contenu_boite">
